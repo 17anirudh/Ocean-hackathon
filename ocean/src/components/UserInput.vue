@@ -21,64 +21,107 @@
       </ul>
     </div>
   </div>
+   <!-- Submit Button -->
+  <div class="submit-box">
+      <button @click="submitSelection">Submit</button>
+  </div>
+  <!-- Display result -->
+  <p v-if="resultText" class="result-text">{{ resultText }}</p>
 </template>
 
 <script setup>
 import { ref, onMounted } from 'vue'
+import Fuse from 'fuse.js'
 
 const data = ref({})
-const domains = ref([])
-const filteredDomains = ref([])
-const selectedDomain = ref('')
+const flatData = ref([])
+
 const domainInput = ref('')
+const filteredDomains = ref([])
 const selectedDomainIndex = ref(0)
+const selectedDomain = ref('')
 
-const subdomains = ref([])
-const filteredSubdomains = ref([])
 const subdomainInput = ref('')
+const filteredSubdomains = ref([])
 const selectedSubdomainIndex = ref(0)
+const resultText = ref('')
 
-// Fetch data
+
+let fuseDomains = null
+let fuseSubdomains = null
+
+function submitSelection() {
+  if (!selectedDomain.value && !subdomainInput.value) {
+    resultText.value = 'Please select domain and/or subdomain.'
+    return
+  }
+  resultText.value = `You selected Domain: "${selectedDomain.value || 'None'}" and Subdomain: "${subdomainInput.value || 'None'}"`
+}
+
 onMounted(async () => {
   const res = await fetch('/output.json')
   const json = await res.json()
   data.value = json
-  domains.value = Object.keys(json)
+
+  // flatten your data: [{domain, subdomain}, ...]
+  flatData.value = []
+  for (const domain in json) {
+    json[domain].forEach(sub => {
+      flatData.value.push({ domain, subdomain: sub })
+    })
+  }
+
+  // fuse for domains (search only domain key)
+  fuseDomains = new Fuse(flatData.value, {
+    keys: ['domain'],
+    threshold: 0.3,
+  })
+
+  // fuse for subdomains (search only subdomain key)
+  fuseSubdomains = new Fuse(flatData.value, {
+    keys: ['subdomain'],
+    threshold: 0.3,
+  })
 })
 
-// Filter domains
 function filterDomains() {
-  filteredDomains.value = domains.value.filter((d) =>
-    d.toLowerCase().includes(domainInput.value.toLowerCase())
-  ).slice(0, 5)
+  if (!domainInput.value) {
+    filteredDomains.value = []
+    return
+  }
+  // get unique domain results from fuse search
+  const results = fuseDomains.search(domainInput.value).slice(0, 10)
+  const uniqueDomains = [...new Set(results.map(r => r.item.domain))]
+  filteredDomains.value = uniqueDomains.slice(0, 5)
   selectedDomainIndex.value = 0
 }
 
-// Select domain
 function selectDomain(index = selectedDomainIndex.value) {
   selectedDomain.value = filteredDomains.value[index]
-  subdomains.value = data.value[selectedDomain.value]
   domainInput.value = selectedDomain.value
   filteredDomains.value = []
   subdomainInput.value = ''
   filteredSubdomains.value = []
 }
 
-// Filter subdomains
 function filterSubdomains() {
-  filteredSubdomains.value = subdomains.value.filter((s) =>
-    s.toLowerCase().includes(subdomainInput.value.toLowerCase())
-  ).slice(0, 5)
+  if (!subdomainInput.value || !selectedDomain.value) {
+    filteredSubdomains.value = []
+    return
+  }
+  // search subdomains, but filter to only those with selected domain
+  const results = fuseSubdomains.search(subdomainInput.value)
+  const filteredByDomain = results.filter(r => r.item.domain === selectedDomain.value)
+  filteredSubdomains.value = filteredByDomain.slice(0, 5).map(r => r.item.subdomain)
   selectedSubdomainIndex.value = 0
 }
 
-// Select subdomain
 function selectSubdomain(index = selectedSubdomainIndex.value) {
   subdomainInput.value = filteredSubdomains.value[index]
   filteredSubdomains.value = []
 }
 
-// Keyboard nav helpers
+// keyboard navigation helpers like before
 function moveDown(type) {
   if (type === 'domain') {
     if (selectedDomainIndex.value < filteredDomains.value.length - 1)
@@ -98,8 +141,11 @@ function moveUp(type) {
 }
 </script>
 
+
+
 <style scoped>
 .typeaface-container {
+  background-color: aliceblue;
   display: flex;
   gap: 1rem;
 }
@@ -116,8 +162,25 @@ ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  color: black;
 }
 li {
   cursor: pointer;
+  color: black;
+}
+.submit-box {
+  display: flex;
+  align-items: center;
+}
+
+.submit-box button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.result-text {
+  margin-top: 1rem;
+  font-weight: 600;
+  color: #333;
 }
 </style>

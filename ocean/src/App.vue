@@ -7,12 +7,12 @@ import UserInput from './components/UserInput.vue'
 </template>
 
 <style scoped>
-.input-wrapper {
+.user-input {
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border: 2px solid #ccc;
   padding: 1rem;
   border-radius: 0.5rem;
-  width: fit-content;
   margin: 2rem auto;
-  display: block; /* make sure it behaves like a block element */
 }
 </style>
