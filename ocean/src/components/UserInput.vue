@@ -1,32 +1,36 @@
 <template>
-  <div class="typeaface-container">
-    <!-- Domain Typeahead -->
-    <div class="domain-box">
+  <div class="MAIN_DIV">
+    <div class="typeaface-container">
+      <!-- Domain Typeahead -->
+      <div class="domain-box">
         <input v-model="domainInput" @input="filterDomains" @keydown.down.prevent="moveDown('domain')" @keydown.up.prevent="moveUp('domain')" 
-        @keydown.enter.prevent="selectDomain" placeholder="Domain..." title="Domain"/>
+          @keydown.enter.prevent="selectDomain" class="domainInput" placeholder="domain..." title="Domain"/>
         <ul v-if="filteredDomains.length">
-        <li v-for="(domain, index) in filteredDomains" :key="domain" :class="{ selected: index === selectedDomainIndex }" @click="selectDomain(index)">
-            {{ domain }}
-        </li>
+          <li v-for="(domain, index) in filteredDomains" :key="domain" :class="{ selected: index === selectedDomainIndex }" @click="selectDomain(index)">
+              {{ domain }}
+          </li>
         </ul>
-  </div>
-  <!-- Subdomain Typeahead -->
-    <div class="subdomain-box">
-      <input v-model="subdomainInput" @input="filterSubdomains" @keydown.down.prevent="moveDown('subdomain')" @keydown.up.prevent="moveUp('subdomain')"
-        @keydown.enter.prevent="selectSubdomain" placeholder="Subdomain..." title="Keywords"/>
-      <ul v-if="filteredSubdomains.length">
-        <li v-for="(sub, index) in filteredSubdomains" :key="sub" :class="{ selected: index === selectedSubdomainIndex }" @click="selectSubdomain(index)">
-          {{ sub }}
-        </li>
-      </ul>
+      </div>
+      <!-- Subdomain Typeahead -->
+      <div class="subdomain-box">
+        <input v-model="subdomainInput" @input="filterSubdomains" @keydown.down.prevent="moveDown('subdomain')" @keydown.up.prevent="moveUp('subdomain')"
+          @keydown.enter.prevent="selectSubdomain" class="subdomainInput" placeholder="keywords..." title="Keywords"/>
+        <ul v-if="filteredSubdomains.length">
+          <li v-for="(sub, index) in filteredSubdomains" :key="sub" :class="{ selected: index === selectedSubdomainIndex }" @click="selectSubdomain(index)">
+            {{ sub }}
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Submit Button -->
+    <div class="submit-box">
+      <button @click="submitSelection" class="submit-button">Submit</button>
+    </div>
+    <!-- Display result -->
+    <div class="result-box">
+      <p v-if="resultText" class="result-text">{{ resultText }}</p>
     </div>
   </div>
-   <!-- Submit Button -->
-  <div class="submit-box">
-      <button @click="submitSelection">Submit</button>
-  </div>
-  <!-- Display result -->
-  <p v-if="resultText" class="result-text">{{ resultText }}</p>
 </template>
 
 <script setup>
@@ -142,45 +146,108 @@ function moveUp(type) {
 </script>
 
 
-
 <style scoped>
-.typeaface-container {
-  background-color: aliceblue;
+.MAIN_DIV {
   display: flex;
-  gap: 1rem;
+  flex-direction: column;
+  padding: 3vw;
+  border: 2px solid #000;
+  border-radius: 10px;
+  font-size: clamp(0.75rem, -0.3815rem + 4.893vw, 2.75rem);
+  background: linear-gradient(45deg, #000, #252323);
+  height: fit-content;
+}
+.typeaface-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5vw;
+  font-size: clamp(0.75rem, 0.4954rem + 1.1009vw, 1.2rem);
+  justify-content: space-evenly;
 }
 
-.domain-box,
-.subdomain-box {
-  flex: 1;
+.domainInput, .subdomainInput {
+  color: white;
+  border: 2px solid #8707ff;
+  border-radius: 10px;
+  padding: 10px 25px;
+  background: transparent;
+  font-size: clamp(0.75rem, 0.1843rem + 2.4465vw, 1.rem);
+  max-width: 190px;
 }
 
-.selected {
-  outline: 1px dashed black;
+.domainInput:active {
+  box-shadow: 2px 2px 15px #8707ff inset;
 }
+.subdomainInput:active{
+  box-shadow: 2px 2px 15px #8707ff inset;
+}
+
 ul {
+  list-style-type: none;
   margin: 0;
   padding: 0;
-  list-style: none;
-  color: black;
+  border: 2px solid #8707ff;
+  border-radius: 10px;
+  max-width: 190px;
+  background: black;
+  color: white;
+  overflow: hidden;
+  box-shadow: 0 0 10px #8707ff55;
+  position: absolute;
+  z-index: 10;
 }
+
 li {
+  padding: 10px 25px;
   cursor: pointer;
-  color: black;
+  transition: all 0.2s ease;
 }
+
+li:hover,
+li.selected {
+  background-color: #8707ff55;
+  color: #fff;
+}
+
+
 .submit-box {
   display: flex;
+  justify-content: center;
   align-items: center;
+  margin-top: 5vw;
 }
 
-.submit-box button {
-  padding: 0.5rem 1rem;
+.submit-button {
   cursor: pointer;
+  font-size: large;
+  font-family: inherit;
+  font-weight: bold;
+  color: #0011ff;
+  background-color: black;
+  padding: 0.8em 2.2em;
+  border-radius: 50em;
+  border: 6px solid #8b93f8;
+  box-shadow: 0px 8px #1f35ff;
+  transition: all 0.3s ease;
+}
+.submit-button:active {
+  position: relative;
+  top: 8px;
+  border: 6px solid #646fff;
+  box-shadow: 0px 0px;
+}
+.submit-button:hover {
+  background-color: #0011ff;
+  color: white;
+  box-shadow: 0px 8px #646fff;
 }
 
-.result-text {
-  margin-top: 1rem;
-  font-weight: 600;
-  color: #333;
+.result-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vw;
+  font-size: clamp(0.75rem, 0.6439rem + 0.4587vw, 0.9375rem);
 }
+
 </style>

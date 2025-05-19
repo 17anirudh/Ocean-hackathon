@@ -3,16 +3,35 @@ import UserInput from './components/UserInput.vue'
 </script>
 
 <template>
-  <UserInput class="user-input"/>
+  <header>
+    Veteran Hunting
+  </header>
+  <div class="UserInput">
+    <UserInput />
+  </div>
 </template>
 
-<style scoped>
-.user-input {
-  background-color: #f9f9f9;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border: 2px solid #ccc;
-  padding: 1rem;
-  border-radius: 0.5rem;
-  margin: 2rem auto;
+<style>
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+body{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+header {
+  font-size: clamp(0.75rem, -0.3815rem + 4.893vw, 2.75rem);
+  text-align: center;
+  }
+.UserInput {
+  margin-top: 7vw;
+  margin-right: 20vw;
+  margin-left: 20vw;
+  width: fit-content;
+  border: 2px black solid;
+  border-radius: 23px;
+  }
 </style>
