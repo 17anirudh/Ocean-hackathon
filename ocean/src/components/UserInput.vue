@@ -40,12 +40,13 @@ import Fuse from 'fuse.js'
 const data = ref({})
 const flatData = ref([])
 
+const emit = defineEmits(['submit'])
+const selectedDomain = ref('')  //domain selected by user
+const subdomainInput = ref('') // subdomain input by user
+
 const domainInput = ref('')
 const filteredDomains = ref([])
-const selectedDomainIndex = ref(0)
-const selectedDomain = ref('')
-
-const subdomainInput = ref('')
+const selectedDomainIndex = ref(0) 
 const filteredSubdomains = ref([])
 const selectedSubdomainIndex = ref(0)
 const resultText = ref('')
@@ -54,12 +55,26 @@ const resultText = ref('')
 let fuseDomains = null
 let fuseSubdomains = null
 
-function submitSelection() {
+async function submitSelection() {
   if (!selectedDomain.value && !subdomainInput.value) {
     resultText.value = 'Please select domain and/or subdomain.'
     return
   }
   resultText.value = `You selected Domain: "${selectedDomain.value || 'None'}" and Subdomain: "${subdomainInput.value || 'None'}"`
+  try {
+    const res = await fetch('http://127.0.0.1:5000/process', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        domain: selectedDomain.value,
+        subdomain: subdomainInput.value,
+      }),
+    })
+    const data = await res.json()
+    emit('dataReady', data)  // Send JSON from Flask UP to parent
+  } catch (err) {
+    emit('dataReady', { error: err.message })  // Handle error case
+  }
 }
 
 onMounted(async () => {
