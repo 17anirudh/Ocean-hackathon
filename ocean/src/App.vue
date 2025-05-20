@@ -11,16 +11,16 @@ function handleData(newData) {
 </script>
 
 <template>
-  <header>
-    Veteran Hunting
-  </header>
-    <div class="UserInput">
-      <UserInput @dataReady="handleData" />
-    </div>
-    <div class="output">
-      <Output :data="data" />
-    </div>
-    <footer>...</footer>
+  <div class="first">
+    <header>
+      <p>Veteran Hunting</p>
+    </header>
+  </div>
+  <div class="UserInput">
+    <UserInput @dataReady="handleData" />
+  </div>
+  <div class="Output">
+    <Output :data="data" />
   </div>
 </template>
 
@@ -28,30 +28,35 @@ function handleData(newData) {
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 body{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   width: 100%;
 }
 header {
-  font-size: clamp(0.75rem, -0.3815rem + 4.893vw, 2.75rem);
+  display: fixed;
+  top: 0;
+  margin-top: 0;
+  width: 100%;
+  font-size: clamp(0.75rem, -0.3415rem + 5.893vw, 2.9rem);
   text-align: center;
+  margin-bottom: 10vh;
 }
 .UserInput {
-  margin-top: 5vw;
-  width: fit-content;
-  border: 2px black solid;
-  border-radius: 23px;
+  border: 2px solid wheat;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15vw;
+  margin-bottom: 7vh;
+  display: flex;
 }
-
-footer{
-  margin-top: 5vw;
+.Output {
+  width: 90%;
+  margin-left: 3vw;
+  justify-content: center;
   align-items: center;
   display: flex;
-  justify-content: center;
 }
 </style>

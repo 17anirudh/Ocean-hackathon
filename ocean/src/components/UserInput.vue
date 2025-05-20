@@ -3,8 +3,16 @@
     <div class="typeaface-container">
       <!-- Domain Typeahead -->
       <div class="domain-box">
-        <input v-model="domainInput" @input="filterDomains" @keydown.down.prevent="moveDown('domain')" @keydown.up.prevent="moveUp('domain')" 
-          @keydown.enter.prevent="selectDomain" class="domainInput" placeholder="domain..." title="Domain"/>
+        <input 
+          v-model="domainInput" 
+          @input="filterDomains" 
+          @keydown.down.prevent="moveDown('domain')" 
+          @keydown.up.prevent="moveUp('domain')" 
+          @keydown.enter.prevent="selectDomain" 
+          class="domainInput" 
+          placeholder="domain..." 
+          title="Domain"
+        />
         <ul v-if="filteredDomains.length">
           <li v-for="(domain, index) in filteredDomains" :key="domain" :class="{ selected: index === selectedDomainIndex }" @click="selectDomain(index)">
               {{ domain }}
@@ -13,8 +21,16 @@
       </div>
       <!-- Subdomain Typeahead -->
       <div class="subdomain-box">
-        <input v-model="subdomainInput" @input="filterSubdomains" @keydown.down.prevent="moveDown('subdomain')" @keydown.up.prevent="moveUp('subdomain')"
-          @keydown.enter.prevent="selectSubdomain" class="subdomainInput" placeholder="keywords..." title="Keywords"/>
+        <input 
+          v-model="subdomainInput" 
+          @input="filterSubdomains" 
+          @keydown.down.prevent="moveDown('subdomain')" 
+          @keydown.up.prevent="moveUp('subdomain')"
+          @keydown.enter.prevent="selectSubdomain" 
+          class="subdomainInput" 
+          placeholder="keywords..." 
+          title="Keywords"
+        />
         <ul v-if="filteredSubdomains.length">
           <li v-for="(sub, index) in filteredSubdomains" :key="sub" :class="{ selected: index === selectedSubdomainIndex }" @click="selectSubdomain(index)">
             {{ sub }}
@@ -151,19 +167,16 @@ async function submitSelection() {
 .MAIN_DIV {
   display: flex;
   flex-direction: column;
-  padding: 3vw;
-  border: 2px solid #000;
-  border-radius: 10px;
-  font-size: clamp(0.75rem, -0.3815rem + 4.893vw, 2.75rem);
-  background: linear-gradient(45deg, #000, #252323);
+  align-items: center;
+  width: 100%;
   height: fit-content;
+  padding: 20px;
 }
 .typeaface-container {
   display: flex;
   flex-direction: row;
-  margin-bottom: 5vw;
   font-size: clamp(0.75rem, 0.4954rem + 1.1009vw, 1.2rem);
-  justify-content: space-evenly;
+  gap: 1vw;
 }
 
 .domainInput, .subdomainInput {
@@ -173,7 +186,6 @@ async function submitSelection() {
   padding: 10px 25px;
   background: transparent;
   font-size: clamp(0.75rem, 0.1843rem + 2.4465vw, 1.rem);
-  max-width: 190px;
 }
 
 .domainInput:active {
@@ -200,6 +212,7 @@ ul {
 
 li {
   padding: 10px 25px;
+  color: #fff;
   cursor: pointer;
   transition: all 0.2s ease;
 }
