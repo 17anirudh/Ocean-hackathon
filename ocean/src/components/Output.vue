@@ -23,7 +23,7 @@
       </tbody>
     </table>
 
-    <div v-else>
+    <div v-else-if="typeof data === 'string'">
       No data found.
     </div>
   </div>
@@ -50,7 +50,14 @@ if (typeof props.data === 'string') {
 
 <style scoped>
 table {
-  width: 100%;
+  width: 95%;
+  margin: 10vw auto;
   border-collapse: collapse;
+  border: 2px solid red;
+}
+tr, td{
+  border: 2px solid red;
+  padding: 10px;
+  text-align: center;
 }
 </style>

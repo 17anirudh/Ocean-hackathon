@@ -7,7 +7,6 @@ const data = ref(null)
 
 function handleData(newData) {
   data.value = newData
-  console.log('Data received from UserInput:', newData)
 }
 </script>
 
@@ -15,11 +14,13 @@ function handleData(newData) {
   <header>
     Veteran Hunting
   </header>
-  <div class="UserInput">
-    <UserInput @dataReady="handleData" />
-  </div>
-  <div class="output">
-    <Output :data="data" />
+    <div class="UserInput">
+      <UserInput @dataReady="handleData" />
+    </div>
+    <div class="output">
+      <Output :data="data" />
+    </div>
+    <footer>...</footer>
   </div>
 </template>
 
@@ -39,11 +40,18 @@ body{
 header {
   font-size: clamp(0.75rem, -0.3815rem + 4.893vw, 2.75rem);
   text-align: center;
-  }
+}
 .UserInput {
   margin-top: 5vw;
   width: fit-content;
   border: 2px black solid;
   border-radius: 23px;
-  }
+}
+
+footer{
+  margin-top: 5vw;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
 </style>

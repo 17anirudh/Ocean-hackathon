@@ -13,22 +13,20 @@ def index():
 @app.route('/search', methods=['POST'])
 def main():
     data = request.get_json()
-    print('Data Received')
     value = data.get('value')
     domain = data.get('domain', '')
     subdomain = data.get('subdomain', '')
+
     API_KEY = 'AIzaSyDUqjTB9z-GvXdSZ6lKDZwgz0_59gJjOiM'
     CSE_ID = '848d9e0a11f214054'
-    query = f"site:linkedin.com/in {domain} {subdomain}"
+    query = f"site:linkedin.com/in {domain} {subdomain} AND INDIA"
 
     google_response = google_search(query, API_KEY, CSE_ID)
 
     extracted_json = extract(google_response)
-    print(type(extracted_json))  # Should print <class 'str'>
     with open('output.json', 'w') as f:
-        f.write(extracted_json)  # Write JSON string directly
-    print('Data Saved to output.json')
-    # Return JSON string with correct Content-Type
+        f.write(extracted_json)  
+
     return app.response_class(
         response=extracted_json,
         mimetype='application/json'

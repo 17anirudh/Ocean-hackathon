@@ -131,8 +131,6 @@ async function submitSelection() {
     return
   }
 
-  resultText.value = `You selected Domain: "${domain || 'None'}" and Subdomain: "${subdomain || 'None'}"`
-
   try {
     const res = await fetch('http://127.0.0.1:5000/search', {
       method: 'POST',
