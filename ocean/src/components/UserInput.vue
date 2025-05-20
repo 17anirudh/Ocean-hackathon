@@ -37,66 +37,40 @@
 import { ref, onMounted } from 'vue'
 import Fuse from 'fuse.js'
 
+const emit = defineEmits(['dataReady'])
+
 const data = ref({})
 const flatData = ref([])
 
-const emit = defineEmits(['submit'])
-const selectedDomain = ref('')  //domain selected by user
-const subdomainInput = ref('') // subdomain input by user
-
 const domainInput = ref('')
-const filteredDomains = ref([])
-const selectedDomainIndex = ref(0) 
-const filteredSubdomains = ref([])
-const selectedSubdomainIndex = ref(0)
-const resultText = ref('')
+const subdomainInput = ref('')
+const selectedDomain = ref('')
 
+const filteredDomains = ref([])
+const filteredSubdomains = ref([])
+
+const selectedDomainIndex = ref(0)
+const selectedSubdomainIndex = ref(0)
+
+const resultText = ref('')
 
 let fuseDomains = null
 let fuseSubdomains = null
-
-async function submitSelection() {
-  if (!selectedDomain.value && !subdomainInput.value) {
-    resultText.value = 'Please select domain and/or subdomain.'
-    return
-  }
-  resultText.value = `You selected Domain: "${selectedDomain.value || 'None'}" and Subdomain: "${subdomainInput.value || 'None'}"`
-  try {
-    const res = await fetch('http://127.0.0.1:5000/process', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        domain: selectedDomain.value,
-        subdomain: subdomainInput.value,
-      }),
-    })
-    const data = await res.json()
-    emit('dataReady', data)  // Send JSON from Flask UP to parent
-  } catch (err) {
-    emit('dataReady', { error: err.message })  // Handle error case
-  }
-}
 
 onMounted(async () => {
   const res = await fetch('/output.json')
   const json = await res.json()
   data.value = json
 
-  // flatten your data: [{domain, subdomain}, ...]
-  flatData.value = []
-  for (const domain in json) {
-    json[domain].forEach(sub => {
-      flatData.value.push({ domain, subdomain: sub })
-    })
-  }
+  flatData.value = Object.entries(json).flatMap(([domain, subs]) =>
+    subs.map(sub => ({ domain, subdomain: sub }))
+  )
 
-  // fuse for domains (search only domain key)
   fuseDomains = new Fuse(flatData.value, {
     keys: ['domain'],
     threshold: 0.3,
   })
 
-  // fuse for subdomains (search only subdomain key)
   fuseSubdomains = new Fuse(flatData.value, {
     keys: ['subdomain'],
     threshold: 0.3,
@@ -104,15 +78,21 @@ onMounted(async () => {
 })
 
 function filterDomains() {
-  if (!domainInput.value) {
-    filteredDomains.value = []
-    return
-  }
-  // get unique domain results from fuse search
-  const results = fuseDomains.search(domainInput.value).slice(0, 10)
-  const uniqueDomains = [...new Set(results.map(r => r.item.domain))]
-  filteredDomains.value = uniqueDomains.slice(0, 5)
+  if (!domainInput.value) return (filteredDomains.value = [])
+
+  const results = fuseDomains.search(domainInput.value).map(r => r.item.domain)
+  filteredDomains.value = [...new Set(results)].slice(0, 5)
   selectedDomainIndex.value = 0
+}
+
+function filterSubdomains() {
+  if (!subdomainInput.value || !selectedDomain.value)
+    return (filteredSubdomains.value = [])
+
+  const results = fuseSubdomains.search(subdomainInput.value)
+  const matches = results.filter(r => r.item.domain === selectedDomain.value)
+  filteredSubdomains.value = matches.map(r => r.item.subdomain).slice(0, 5)
+  selectedSubdomainIndex.value = 0
 }
 
 function selectDomain(index = selectedDomainIndex.value) {
@@ -123,41 +103,49 @@ function selectDomain(index = selectedDomainIndex.value) {
   filteredSubdomains.value = []
 }
 
-function filterSubdomains() {
-  if (!subdomainInput.value || !selectedDomain.value) {
-    filteredSubdomains.value = []
-    return
-  }
-  // search subdomains, but filter to only those with selected domain
-  const results = fuseSubdomains.search(subdomainInput.value)
-  const filteredByDomain = results.filter(r => r.item.domain === selectedDomain.value)
-  filteredSubdomains.value = filteredByDomain.slice(0, 5).map(r => r.item.subdomain)
-  selectedSubdomainIndex.value = 0
-}
-
 function selectSubdomain(index = selectedSubdomainIndex.value) {
   subdomainInput.value = filteredSubdomains.value[index]
   filteredSubdomains.value = []
 }
 
-// keyboard navigation helpers like before
 function moveDown(type) {
-  if (type === 'domain') {
-    if (selectedDomainIndex.value < filteredDomains.value.length - 1)
-      selectedDomainIndex.value++
-  } else {
-    if (selectedSubdomainIndex.value < filteredSubdomains.value.length - 1)
-      selectedSubdomainIndex.value++
-  }
+  const list = type === 'domain' ? filteredDomains.value : filteredSubdomains.value
+  const indexRef = type === 'domain' ? selectedDomainIndex : selectedSubdomainIndex
+
+  if (indexRef.value < list.length - 1) indexRef.value++
 }
 
 function moveUp(type) {
-  if (type === 'domain') {
-    if (selectedDomainIndex.value > 0) selectedDomainIndex.value--
-  } else {
-    if (selectedSubdomainIndex.value > 0) selectedSubdomainIndex.value--
+  const indexRef = type === 'domain' ? selectedDomainIndex : selectedSubdomainIndex
+
+  if (indexRef.value > 0) indexRef.value--
+}
+
+// untouched by request
+async function submitSelection() {
+  const domain = domainInput.value.trim()
+  const subdomain = subdomainInput.value.trim()
+
+  if (!domain && !subdomain) {
+    resultText.value = 'Please select domain and/or subdomain.'
+    return
+  }
+
+  resultText.value = `You selected Domain: "${domain || 'None'}" and Subdomain: "${subdomain || 'None'}"`
+
+  try {
+    const res = await fetch('http://127.0.0.1:5000/search', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ domain, subdomain }),
+    })
+    const data = await res.json()
+    emit('dataReady', data)
+  } catch (err) {
+    emit('dataReady', { error: err.message })
   }
 }
+
 </script>
 
 

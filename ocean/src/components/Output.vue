@@ -1,31 +1,56 @@
 <template>
-  <table v-if="data && data.length" cellpadding="10">
-    <thead>
-      <tr>
-        <th>#</th>
-        <th>Domain</th>
-        <th>Subdomain</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr v-for="(item, index) in data" :key="index">
-        <td>{{ index + 1 }}</td>
-        <td>{{ item.domain }}</td>
-        <td>{{ item.subdomain }}</td>
-      </tr>
-    </tbody>
-  </table>
+  <div>
+    <table v-if="Array.isArray(data) && data.length" cellpadding="10">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Name</th>
+          <th>Work/Location</th>
+          <th>LinkedIn</th>
+          <th>Bio</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr v-for="(item, index) in data" :key="index">
+          <td>{{ index + 1 }}</td>
+          <td>{{ item.name }}</td>
+          <td>{{ item.work_or_location }}</td>
+          <td>
+            <a :href="item.contact" target="_blank">{{ item.contact }}</a>
+          </td>
+          <td>{{ item.about }}</td>
+        </tr>
+      </tbody>
+    </table>
 
-  <p v-else>No data received 🫠</p>
+    <div v-else>
+      No data found.
+    </div>
+  </div>
 </template>
 
 <script setup>
-import { defineProps } from 'vue'
-
 const props = defineProps({
-    data: {
-        type: Array,
-        required: true
-    }
+  data: {
+    type: [String, Object, null],
+    default: null
+  }
 })
+  
+if (typeof props.data === 'string') {
+  props.data = props.data.trim()
+  props.data = props.data.replace(/\\n/g, '\n')
+  props.data = JSON.parse(props.data)
+} else if (typeof props.data === 'object') {
+  props.data = JSON.stringify(props.data, null, 2)
+} else {
+  props.data = null
+}
 </script>
+
+<style scoped>
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+</style>
