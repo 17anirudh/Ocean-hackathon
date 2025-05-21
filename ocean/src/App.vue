@@ -25,6 +25,7 @@ function handleData(newData) {
 </template>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Playpen+Sans+Hebrew:wght@100..800&family=Roboto+Flex:opsz,wdth,wght@8..144,125,100..1000&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -33,6 +34,7 @@ body{
   display: flex;
   flex-direction: column;
   width: 100%;
+  font-family: 'Playpen Sans Hebrew', cursive;
 }
 header {
   display: fixed;
@@ -42,21 +44,24 @@ header {
   font-size: clamp(0.75rem, -0.3415rem + 5.893vw, 2.9rem);
   text-align: center;
   margin-bottom: 10vh;
+  font-family: 'Playpen Sans Hebrew', cursive;
 }
 .UserInput {
-  border: 2px solid wheat;
-  width: 50%;
+  min-width: 99vw;
+  max-width: 99vw;
   justify-content: center;
   align-items: center;
-  margin-left: 15vw;
   margin-bottom: 7vh;
   display: flex;
+  font-family: 'Playpen Sans Hebrew', cursive;
 }
 .Output {
   width: 90%;
   margin-left: 3vw;
   justify-content: center;
+  padding-top: -10vh;
   align-items: center;
   display: flex;
+  font-family: 'Playpen Sans Hebrew', cursive;
 }
 </style>

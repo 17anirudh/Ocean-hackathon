@@ -41,7 +41,6 @@ def google_search(query, API_KEY, CSE_ID):
     }
     res = requests.get(url, params=params)
     if res.status_code == 200:
-        print(type(res.json()))  # Should print <class 'dict'>
         return res.json()
     else:
         raise Exception(f"Error: {res.status_code}")
@@ -59,7 +58,6 @@ def extract(json_data):
         }
         result.append(entry)
     json_result = json.dumps(result, indent=4)
-    print(type(json_result))  # Should print <class 'str'>
     return json_result
 
 if __name__ == '__main__':
