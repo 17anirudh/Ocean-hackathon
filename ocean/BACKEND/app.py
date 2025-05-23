@@ -22,9 +22,11 @@ def main():
     query = f"site:linkedin.com/in {domain} {subdomain} AND INDIA"
 
     google_response = google_search(query, API_KEY, CSE_ID)
+    with open('G_output.json', 'w') as f:
+        f.write(json.dumps(google_response, indent=4))
 
     extracted_json = extract(google_response)
-    with open('output.json', 'w') as f:
+    with open('extracted.json', 'w') as f:
         f.write(extracted_json)  
 
     return app.response_class(
