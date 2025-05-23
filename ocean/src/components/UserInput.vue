@@ -56,7 +56,7 @@
     </div>
     <!-- Submit Button -->
     <div class="submit-box">
-      <button @click="submitSelection" class="submit-button">Submit</button>
+      <button @click="submitSelection" class="submit-button" title="Submit">Submit</button>
     </div>
     <!-- Display result -->
     <div class="result-box">
@@ -248,7 +248,7 @@ async function submitSelection() {
 .typeaface-container {
   display: flex;
   flex-direction: row;
-  font-size: clamp(0.75rem, 0.4954rem + 1.1009vw, 1.2rem);
+  font-size: clamp(0.75rem, 0.1843rem + 2.4465vw, 1.75rem);
   gap: 1vw;
   width: 100%;
   max-width: 500px;
@@ -267,7 +267,7 @@ async function submitSelection() {
   border-radius: 10px;
   padding: 10px 25px;
   background: transparent;
-  font-size: clamp(0.75rem, 0.1843rem + 2.4465vw, 1rem);
+  font-size: clamp(0.75rem, 0.3257rem + 1.8349vw, 1.5rem);
   width: 100%;
   box-sizing: border-box;
   outline: none;

@@ -1,0 +1,636 @@
+{
+    "kind": "customsearch#search",
+    "url": {
+        "type": "application/json",
+        "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+    },
+    "queries": {
+        "request": [
+            {
+                "title": "Google Custom Search - site:linkedin.com/in data analyst  AND INDIA",
+                "totalResults": "13000000",
+                "searchTerms": "site:linkedin.com/in data analyst  AND INDIA",
+                "count": 10,
+                "startIndex": 1,
+                "inputEncoding": "utf8",
+                "outputEncoding": "utf8",
+                "safe": "off",
+                "cx": "f0fa96cfbc5bd4b24"
+            }
+        ],
+        "nextPage": [
+            {
+                "title": "Google Custom Search - site:linkedin.com/in data analyst  AND INDIA",
+                "totalResults": "13000000",
+                "searchTerms": "site:linkedin.com/in data analyst  AND INDIA",
+                "count": 10,
+                "startIndex": 11,
+                "inputEncoding": "utf8",
+                "outputEncoding": "utf8",
+                "safe": "off",
+                "cx": "f0fa96cfbc5bd4b24"
+            }
+        ]
+    },
+    "context": {
+        "title": "rod"
+    },
+    "searchInformation": {
+        "searchTime": 0.535621,
+        "formattedSearchTime": "0.54",
+        "totalResults": "13000000",
+        "formattedTotalResults": "13,000,000"
+    },
+    "items": [
+        {
+            "kind": "customsearch#result",
+            "title": "Muskan Kashyap - Data Analyst/Scientist - Freelance | LinkedIn",
+            "htmlTitle": "Muskan Kashyap - <b>Data Analyst</b>/Scientist - Freelance | LinkedIn",
+            "link": "https://in.linkedin.com/in/muskan-kashyap-480182275",
+            "displayLink": "in.linkedin.com",
+            "snippet": "Google Certified Business Intelligence & Data Analyst | Python, SQL, R, Tableau, Power BI, Excel | Mathematician & Researcher \u00b7 Numbers have always been my\u00a0...",
+            "htmlSnippet": "Google Certified Business Intelligence &amp; <b>Data Analyst</b> | Python, SQL, R, Tableau, Power BI, Excel | Mathematician &amp; Researcher \u00b7 Numbers have always been my&nbsp;...",
+            "formattedUrl": "https://in.linkedin.com/in/muskan-kashyap-480182275",
+            "htmlFormattedUrl": "https://in.linkedin.com/in/muskan-kashyap-480182275",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpEnMCOR-ytx0ZXHO2rgJlezc4CfXm5iHZMEjL8fSfOciDiTG4CU0Uc8QO&s",
+                        "width": "225",
+                        "height": "225"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://static.licdn.com/aero-v1/sc/h/1c5u578iilxfi4m4dvc4q810q",
+                        "twitter:card": "summary",
+                        "linkedin:pagetag": "openToProvider",
+                        "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
+                        "al:android:package": "com.linkedin.android",
+                        "bingbot": "nocache",
+                        "locale": "en_US",
+                        "al:ios:url": "https://in.linkedin.com/in/muskan-kashyap-480182275",
+                        "og:description": "Google Certified Business Intelligence &amp; Data Analyst | Python, SQL, R, Tableau, Power BI, Excel | Mathematician &amp; Researcher \u00b7 Numbers have always been my thing. I even earned a distinction in my Master&#39;s degree in Mathematics (with honors!). During my academic journey, I published two research papers in international journals, showcasing my ability to draw meaningful conclusions. As a result, I have over 2 years of experience as a Mathematics Tutor and 3 years of research experience. This journey taught me how to break down complex problems and explain them in a clear, concise way.\n\nBut numbers alone weren\u2019t enough - I craved the challenge of using them to understand how the world works. I see patterns everywhere. I love analyzing systems, asking \u201cwhy\u201d and getting deep into what most people overlook. That passion led me to earn Google\u2019s Professional Certificates in Data Analytics and Business Intelligence, and I\u2019ve been building ever since.\n\nIn just over a year of internships, freelan",
+                        "al:ios:app_store_id": "288429040",
+                        "platform": "https://static.licdn.com/aero-v1/sc/h/cx1lliooyx2mt58pbjo4d4t6e",
+                        "twitter:image": "https://static.licdn.com/aero-v1/sc/h/1c5u578iilxfi4m4dvc4q810q",
+                        "profile:last_name": "Kashyap",
+                        "twitter:site": "@Linkedin",
+                        "litmsprofilename": "public-profile-frontend",
+                        "profile:first_name": "Muskan",
+                        "og:type": "profile",
+                        "twitter:title": "Muskan Kashyap - Data Analyst/Scientist - Freelance | LinkedIn",
+                        "al:ios:app_name": "LinkedIn",
+                        "og:title": "Muskan Kashyap - Data Analyst/Scientist - Freelance | LinkedIn",
+                        "pagekey": "public_profile_v3_mobile",
+                        "al:android:url": "https://in.linkedin.com/in/muskan-kashyap-480182275",
+                        "viewport": "width=device-width, initial-scale=1.0",
+                        "twitter:description": "Google Certified Business Intelligence &amp; Data Analyst | Python, SQL, R, Tableau, Power BI, Excel | Mathematician &amp; Researcher \u00b7 Numbers have always been my thing. I even earned a distinction in my Master&#39;s degree in Mathematics (with honors!). During my academic journey, I published two research papers in international journals, showcasing my ability to draw meaningful conclusions. As a result, I have over 2 years of experience as a Mathematics Tutor and 3 years of research experience. This journey taught me how to break down complex problems and explain them in a clear, concise way.\n\nBut numbers alone weren\u2019t enough - I craved the challenge of using them to understand how the world works. I see patterns everywhere. I love analyzing systems, asking \u201cwhy\u201d and getting deep into what most people overlook. That passion led me to earn Google\u2019s Professional Certificates in Data Analytics and Business Intelligence, and I\u2019ve been building ever since.\n\nIn just over a year of internships, freelan",
+                        "ubba": "https://static.licdn.com/aero-v1/sc/h/4z28ov3akhnpdu4wp0jesv54h",
+                        "og:url": "https://in.linkedin.com/in/muskan-kashyap-480182275",
+                        "al:android:app_name": "LinkedIn"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://static.licdn.com/aero-v1/sc/h/1c5u578iilxfi4m4dvc4q810q"
+                    }
+                ],
+                "Person": [
+                    {}
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Abhishek Mishra - Data Analyst - Air India Limited | LinkedIn",
+            "htmlTitle": "Abhishek Mishra - <b>Data Analyst</b> - Air <b>India</b> Limited | LinkedIn",
+            "link": "https://in.linkedin.com/in/abhishek-mishra-820494142",
+            "displayLink": "in.linkedin.com",
+            "snippet": "Data Analyst at Air India \u00b7 Detail-focused Data Analyst with overall 8 years of experience having 4 years of rich experience in developing innovative\u00a0...",
+            "htmlSnippet": "<b>Data Analyst</b> at Air <b>India</b> \u00b7 Detail-focused <b>Data Analyst</b> with overall 8 years of experience having 4 years of rich experience in developing innovative&nbsp;...",
+            "formattedUrl": "https://in.linkedin.com/in/abhishek-mishra-820494142",
+            "htmlFormattedUrl": "https://in.linkedin.com/in/abhishek-mishra-820494142",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_-rpulq5kT2q_yWb7TVKsDm7gGbj7wzZH4NaCHohPsrBSzqDoU1a4FRU&s",
+                        "width": "200",
+                        "height": "200"
+                    }
+                ],
+                "ProfilePage": [
+                    {}
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://media.licdn.com/dms/image/v2/C5103AQGn-OQQoBtD0w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1533986681794?e=2147483647&v=beta&t=itrkPLoQpegUzmzeZhfOIerdQW8kystlnREYZ1GosLY",
+                        "twitter:card": "summary",
+                        "linkedin:pagetag": "openToProvider",
+                        "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
+                        "al:android:package": "com.linkedin.android",
+                        "bingbot": "nocache",
+                        "locale": "en_US",
+                        "al:ios:url": "https://in.linkedin.com/in/abhishek-mishra-820494142",
+                        "og:description": "Data Analyst at Air India \u00b7 Detail-focused Data Analyst with overall 8 years of experience having 4 years of rich experience in developing innovative solutions to organizational problems. Proven track record of analyzing huge volumes of data to gain business insights using Python, Excel , Power BI. \u00b7 Experience: Air India Limited \u00b7 Education: Bengal Institute of Business Studies \u00b7 Location: Delhi \u00b7 348 connections on LinkedIn. View Abhishek Mishra\u2019s profile on LinkedIn, a professional community of 1 billion members.",
+                        "al:ios:app_store_id": "288429040",
+                        "platform": "https://static.licdn.com/aero-v1/sc/h/cx1lliooyx2mt58pbjo4d4t6e",
+                        "twitter:image": "https://media.licdn.com/dms/image/v2/C5103AQGn-OQQoBtD0w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1533986681794?e=2147483647&v=beta&t=itrkPLoQpegUzmzeZhfOIerdQW8kystlnREYZ1GosLY",
+                        "profile:last_name": "Mishra",
+                        "twitter:site": "@Linkedin",
+                        "litmsprofilename": "public-profile-frontend",
+                        "profile:first_name": "Abhishek",
+                        "og:type": "profile",
+                        "twitter:title": "Abhishek Mishra - Data Analyst - Air India Limited | LinkedIn",
+                        "al:ios:app_name": "LinkedIn",
+                        "og:title": "Abhishek Mishra - Data Analyst - Air India Limited | LinkedIn",
+                        "pagekey": "public_profile_v3_mobile",
+                        "al:android:url": "https://in.linkedin.com/in/abhishek-mishra-820494142",
+                        "viewport": "width=device-width, initial-scale=1.0",
+                        "twitter:description": "Data Analyst at Air India \u00b7 Detail-focused Data Analyst with overall 8 years of experience having 4 years of rich experience in developing innovative solutions to organizational problems. Proven track record of analyzing huge volumes of data to gain business insights using Python, Excel , Power BI. \u00b7 Experience: Air India Limited \u00b7 Education: Bengal Institute of Business Studies \u00b7 Location: Delhi \u00b7 348 connections on LinkedIn. View Abhishek Mishra\u2019s profile on LinkedIn, a professional community of 1 billion members.",
+                        "ubba": "https://static.licdn.com/aero-v1/sc/h/4z28ov3akhnpdu4wp0jesv54h",
+                        "og:url": "https://in.linkedin.com/in/abhishek-mishra-820494142",
+                        "al:android:app_name": "LinkedIn"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://media.licdn.com/dms/image/v2/C5103AQGn-OQQoBtD0w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1533986681794?e=2147483647&v=beta&t=itrkPLoQpegUzmzeZhfOIerdQW8kystlnREYZ1GosLY"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Devraj Raut - BCCI | LinkedIn",
+            "htmlTitle": "Devraj Raut - BCCI | LinkedIn",
+            "link": "https://in.linkedin.com/in/devrajraut",
+            "displayLink": "in.linkedin.com",
+            "snippet": "Devraj Raut. BCCI Thakur Institute of Management Studies Career Development and Research. Mumbai, Maharashtra, India ... Data Science R Basics \u00b7 DataCamp. Issued\u00a0...",
+            "htmlSnippet": "Devraj Raut. BCCI Thakur Institute of Management Studies Career Development and Research. Mumbai, Maharashtra, <b>India</b> ... <b>Data</b> Science R Basics &middot; DataCamp. Issued&nbsp;...",
+            "formattedUrl": "https://in.linkedin.com/in/devrajraut",
+            "htmlFormattedUrl": "https://in.linkedin.com/in/devrajraut",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhOBSmAEeUY8Z0ZV5H8VjxhkUZ5JqgnDNTJfIrQv6o2RrTvnbW9rZnLp4&s",
+                        "width": "200",
+                        "height": "200"
+                    }
+                ],
+                "ProfilePage": [
+                    {}
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://media.licdn.com/dms/image/v2/D4D03AQHAywt591zUuQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1721662453527?e=2147483647&v=beta&t=JGMp-Ywlh6lVJAq7lPjMPt2wASzxcXY0vbSXSHlyddY",
+                        "twitter:card": "summary",
+                        "linkedin:pagetag": "openToProvider",
+                        "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
+                        "al:android:package": "com.linkedin.android",
+                        "bingbot": "nocache",
+                        "locale": "en_US",
+                        "al:ios:url": "https://in.linkedin.com/in/devrajraut",
+                        "og:description": "Master of Computer Applications and a Cricketer till the U-19 West Zone Level.\n\nI\u2026 \u00b7 Experience: BCCI \u00b7 Education: Thakur Institute of Management Studies Career Development and Research \u00b7 Location: Mumbai \u00b7 464 connections on LinkedIn. View Devraj Raut\u2019s profile on LinkedIn, a professional community of 1 billion members.",
+                        "al:ios:app_store_id": "288429040",
+                        "platform": "https://static.licdn.com/aero-v1/sc/h/cx1lliooyx2mt58pbjo4d4t6e",
+                        "twitter:image": "https://media.licdn.com/dms/image/v2/D4D03AQHAywt591zUuQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1721662453527?e=2147483647&v=beta&t=JGMp-Ywlh6lVJAq7lPjMPt2wASzxcXY0vbSXSHlyddY",
+                        "profile:last_name": "Raut",
+                        "twitter:site": "@Linkedin",
+                        "litmsprofilename": "public-profile-frontend",
+                        "profile:first_name": "Devraj",
+                        "og:type": "profile",
+                        "twitter:title": "Devraj Raut - BCCI | LinkedIn",
+                        "al:ios:app_name": "LinkedIn",
+                        "og:title": "Devraj Raut - BCCI | LinkedIn",
+                        "pagekey": "public_profile_v3_mobile",
+                        "al:android:url": "https://in.linkedin.com/in/devrajraut",
+                        "viewport": "width=device-width, initial-scale=1.0",
+                        "twitter:description": "Master of Computer Applications and a Cricketer till the U-19 West Zone Level.\n\nI\u2026 \u00b7 Experience: BCCI \u00b7 Education: Thakur Institute of Management Studies Career Development and Research \u00b7 Location: Mumbai \u00b7 464 connections on LinkedIn. View Devraj Raut\u2019s profile on LinkedIn, a professional community of 1 billion members.",
+                        "ubba": "https://static.licdn.com/aero-v1/sc/h/4z28ov3akhnpdu4wp0jesv54h",
+                        "og:url": "https://in.linkedin.com/in/devrajraut",
+                        "al:android:app_name": "LinkedIn"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://media.licdn.com/dms/image/v2/D4D03AQHAywt591zUuQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1721662453527?e=2147483647&v=beta&t=JGMp-Ywlh6lVJAq7lPjMPt2wASzxcXY0vbSXSHlyddY"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Mohit Maheshwari - Consumer Data Analyst - Acadia | LinkedIn",
+            "htmlTitle": "Mohit Maheshwari - Consumer <b>Data Analyst</b> - Acadia | LinkedIn",
+            "link": "https://www.linkedin.com/in/mohitmaheshwari2606/",
+            "displayLink": "www.linkedin.com",
+            "snippet": "Data Analytics Intern. Paddling Foundation. Jul 2021 - Dec 2021 6 months. Mumbai, Maharashtra, India. \u2022 Built Tableau dashboard to visualize core operations\u00a0...",
+            "htmlSnippet": "<b>Data Analytics</b> Intern. Paddling Foundation. Jul 2021 - Dec 2021 6 months. Mumbai, Maharashtra, <b>India</b>. \u2022 Built Tableau dashboard to visualize core operations&nbsp;...",
+            "formattedUrl": "https://www.linkedin.com/in/mohitmaheshwari2606/",
+            "htmlFormattedUrl": "https://www.linkedin.com/in/mohitmaheshwari2606/",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD12GppHFd_QfDzCQ-fI_HeiDu5yXacsDH05NzABclOHuDNlEetpjUhKwb&s",
+                        "width": "200",
+                        "height": "200"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://media.licdn.com/dms/image/v2/D5603AQGZRoxAIzEL6w/profile-displayphoto-shrink_200_200/B56ZXC_ab.HQAY-/0/1742733158630?e=2147483647&v=beta&t=BnRgtr-tdOsHeCjuWCdv0UjnvC1PObPeujJiERqUw5I",
+                        "twitter:card": "summary",
+                        "linkedin:pagetag": "openToProvider",
+                        "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
+                        "al:android:package": "com.linkedin.android",
+                        "bingbot": "nocache",
+                        "locale": "en_US",
+                        "al:ios:url": "https://in.linkedin.com/in/mohitmaheshwari2606",
+                        "og:description": "Customer &amp; Media Analytics @ Acadia | Snowflake + ThoughtSpot \u00b7 I\u2019m Mohit, an analytics professional who\u2019s passionate about combining data and human insight to drive real impact. I have hands-on experience working with 1P and 3P data across diverse areas such as customer behavior, marketing performance, CRM, and Google Analytics.\n\nMy work has involved helping retail brands enhance customer acquisition and retention through data-driven strategies. I specialize in designing and measuring marketing tests, developing insightful dashboards in ThoughtSpot and Tableau, and leveraging Snowflake for scalable data solutions. I also focus on data-driven segmentation, profiling, and persona creation to optimize targeted strategies and maximize impact. For me, data is more than numbers; it\u2019s about telling stories and making a difference.\n\nBeyond the numbers, I love playing chess and snooker, diving into a good book, or catching up on the latest sports matches.\n\n\ud83d\udce7: mohitmaheshwari2606@gmail.com \u00b7 Experience:",
+                        "al:ios:app_store_id": "288429040",
+                        "platform": "https://static.licdn.com/aero-v1/sc/h/cx1lliooyx2mt58pbjo4d4t6e",
+                        "twitter:image": "https://media.licdn.com/dms/image/v2/D5603AQGZRoxAIzEL6w/profile-displayphoto-shrink_200_200/B56ZXC_ab.HQAY-/0/1742733158630?e=2147483647&v=beta&t=BnRgtr-tdOsHeCjuWCdv0UjnvC1PObPeujJiERqUw5I",
+                        "profile:last_name": "Maheshwari",
+                        "twitter:site": "@Linkedin",
+                        "litmsprofilename": "public-profile-frontend",
+                        "profile:first_name": "Mohit",
+                        "og:type": "profile",
+                        "twitter:title": "Mohit Maheshwari - Consumer Data Analyst - Acadia | LinkedIn",
+                        "al:ios:app_name": "LinkedIn",
+                        "og:title": "Mohit Maheshwari - Consumer Data Analyst - Acadia | LinkedIn",
+                        "pagekey": "public_profile_v3_mobile",
+                        "al:android:url": "https://in.linkedin.com/in/mohitmaheshwari2606",
+                        "viewport": "width=device-width, initial-scale=1.0",
+                        "twitter:description": "Customer &amp; Media Analytics @ Acadia | Snowflake + ThoughtSpot \u00b7 I\u2019m Mohit, an analytics professional who\u2019s passionate about combining data and human insight to drive real impact. I have hands-on experience working with 1P and 3P data across diverse areas such as customer behavior, marketing performance, CRM, and Google Analytics.\n\nMy work has involved helping retail brands enhance customer acquisition and retention through data-driven strategies. I specialize in designing and measuring marketing tests, developing insightful dashboards in ThoughtSpot and Tableau, and leveraging Snowflake for scalable data solutions. I also focus on data-driven segmentation, profiling, and persona creation to optimize targeted strategies and maximize impact. For me, data is more than numbers; it\u2019s about telling stories and making a difference.\n\nBeyond the numbers, I love playing chess and snooker, diving into a good book, or catching up on the latest sports matches.\n\n\ud83d\udce7: mohitmaheshwari2606@gmail.com \u00b7 Experience:",
+                        "ubba": "https://static.licdn.com/aero-v1/sc/h/4z28ov3akhnpdu4wp0jesv54h",
+                        "og:url": "https://in.linkedin.com/in/mohitmaheshwari2606",
+                        "al:android:app_name": "LinkedIn"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://media.licdn.com/dms/image/v2/D5603AQGZRoxAIzEL6w/profile-displayphoto-shrink_200_200/B56ZXC_ab.HQAY-/0/1742733158630?e=2147483647&v=beta&t=BnRgtr-tdOsHeCjuWCdv0UjnvC1PObPeujJiERqUw5I"
+                    }
+                ],
+                "Person": [
+                    {}
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Shubham Batra - Lead Data Analyst - IndiGo (InterGlobe Aviation ...",
+            "htmlTitle": "Shubham Batra - Lead <b>Data Analyst</b> - IndiGo (InterGlobe Aviation ...",
+            "link": "https://in.linkedin.com/in/shubham-batra-6a95a7144",
+            "displayLink": "in.linkedin.com",
+            "snippet": "Lead Data Analyst at IndiGo Airlines | Microsoft Power BI PL ... Delhi, India. 3K followers 500+ connections. See your mutual connections. View\u00a0...",
+            "htmlSnippet": "Lead <b>Data Analyst</b> at IndiGo Airlines | Microsoft Power BI PL ... Delhi, <b>India</b>. 3K followers 500+ connections. See your mutual connections. View&nbsp;...",
+            "formattedUrl": "https://in.linkedin.com/in/shubham-batra-6a95a7144",
+            "htmlFormattedUrl": "https://in.linkedin.com/in/shubham-batra-6a95a7144",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVwHJF3RLo1a2rDNKfNrjEwLUiKx6Q_iryXd98GzPwXe_uYAe3BNR07ODY&s",
+                        "width": "200",
+                        "height": "200"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://media.licdn.com/dms/image/v2/D4D03AQE7G4zSB0lrbg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1670066836336?e=2147483647&v=beta&t=RLiLS2jAp6mkxNvdU82GYHKtQe4YOBSPEPamIOmlRdU",
+                        "twitter:card": "summary",
+                        "linkedin:pagetag": "openToProvider",
+                        "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
+                        "al:android:package": "com.linkedin.android",
+                        "bingbot": "nocache",
+                        "locale": "en_US",
+                        "al:ios:url": "https://in.linkedin.com/in/shubham-batra-6a95a7144",
+                        "og:description": "Lead Data Analyst at IndiGo Airlines | Microsoft Power BI PL-300 Certified | Google Data Analytics certificate holder \u00b7 I\u2019m working as a Lead Data analyst in IndiGo Airlines in which I have performed deep dive data analysis of company\u2019s Navitaire Passenger service system (PSS) data  to provide important insights to the stakeholders (CXO level leadership and other various departments) using analytical tools such as Microsoft Power BI, Microsoft SQL server, Microsoft Excel and data extraction/automated report generation by designing ETL pipelines using MS-Visual studio (SSIS) and SSRS for analysing significant trends. Apart from data analysis, I am currently learning cloud infrastructure services such as snowflake data ingestion, ADF and SQL MI etc.\n\nI&#39;m also leading a team of 20+ like minded Data analysts and Data professionals.\n\nData analysis Major Projects:\n\n1. Data analysis using SQL: Catered the business stakeholders with effective insights from company&#39;s Passenger service system data in the f",
+                        "al:ios:app_store_id": "288429040",
+                        "platform": "https://static.licdn.com/aero-v1/sc/h/d024ltvhynt7j1oct8ctk47np",
+                        "twitter:image": "https://media.licdn.com/dms/image/v2/D4D03AQE7G4zSB0lrbg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1670066836336?e=2147483647&v=beta&t=RLiLS2jAp6mkxNvdU82GYHKtQe4YOBSPEPamIOmlRdU",
+                        "profile:last_name": "Batra",
+                        "twitter:site": "@Linkedin",
+                        "litmsprofilename": "public-profile-frontend",
+                        "profile:first_name": "Shubham",
+                        "og:type": "profile",
+                        "twitter:title": "Shubham Batra - Lead Data Analyst - IndiGo (InterGlobe Aviation Ltd) | LinkedIn",
+                        "al:ios:app_name": "LinkedIn",
+                        "og:title": "Shubham Batra - Lead Data Analyst - IndiGo (InterGlobe Aviation Ltd) | LinkedIn",
+                        "pagekey": "public_profile_v3_mobile",
+                        "al:android:url": "https://in.linkedin.com/in/shubham-batra-6a95a7144",
+                        "viewport": "width=device-width, initial-scale=1.0",
+                        "twitter:description": "Lead Data Analyst at IndiGo Airlines | Microsoft Power BI PL-300 Certified | Google Data Analytics certificate holder \u00b7 I\u2019m working as a Lead Data analyst in IndiGo Airlines in which I have performed deep dive data analysis of company\u2019s Navitaire Passenger service system (PSS) data  to provide important insights to the stakeholders (CXO level leadership and other various departments) using analytical tools such as Microsoft Power BI, Microsoft SQL server, Microsoft Excel and data extraction/automated report generation by designing ETL pipelines using MS-Visual studio (SSIS) and SSRS for analysing significant trends. Apart from data analysis, I am currently learning cloud infrastructure services such as snowflake data ingestion, ADF and SQL MI etc.\n\nI&#39;m also leading a team of 20+ like minded Data analysts and Data professionals.\n\nData analysis Major Projects:\n\n1. Data analysis using SQL: Catered the business stakeholders with effective insights from company&#39;s Passenger service system data in the f",
+                        "ubba": "https://static.licdn.com/aero-v1/sc/h/ev3rrqp7pxz92prstldrycla5",
+                        "og:url": "https://in.linkedin.com/in/shubham-batra-6a95a7144",
+                        "al:android:app_name": "LinkedIn"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://media.licdn.com/dms/image/v2/D4D03AQE7G4zSB0lrbg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1670066836336?e=2147483647&v=beta&t=RLiLS2jAp6mkxNvdU82GYHKtQe4YOBSPEPamIOmlRdU"
+                    }
+                ],
+                "Person": [
+                    {}
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Piyush Kumar Goyal - Data Analyst - Renault Nissan Technology ...",
+            "htmlTitle": "Piyush Kumar Goyal - <b>Data Analyst</b> - Renault Nissan Technology ...",
+            "link": "https://in.linkedin.com/in/pg100x",
+            "displayLink": "in.linkedin.com",
+            "snippet": "2x LinkedIn Top Voice - Business Intelligence, Data Analytics | Data Analyst - Renault Nissan Tech (RNTBCI) | Ex - Amazon, Teleperformance, Concentrix,\u00a0...",
+            "htmlSnippet": "2x LinkedIn Top Voice - Business Intelligence, <b>Data Analytics</b> | <b>Data Analyst</b> - Renault Nissan Tech (RNTBCI) | Ex - Amazon, Teleperformance, Concentrix,&nbsp;...",
+            "formattedUrl": "https://in.linkedin.com/in/pg100x",
+            "htmlFormattedUrl": "https://in.linkedin.com/in/pg100x",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQid97IE45Lfaf7KeHYRtneAd7wrF_MDDn8KMmsGKblaXIDgURCe1pTDBU&s",
+                        "width": "200",
+                        "height": "200"
+                    }
+                ],
+                "ProfilePage": [
+                    {}
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://media.licdn.com/dms/image/v2/D5603AQFM5mOe3JBJ_Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1719430541584?e=2147483647&v=beta&t=vSBVhPWc40_Zo9tqMxcG2dLvtCnvB5o0wHoBfNawA34",
+                        "twitter:card": "summary",
+                        "linkedin:pagetag": "openToProvider",
+                        "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
+                        "al:android:package": "com.linkedin.android",
+                        "bingbot": "nocache",
+                        "locale": "en_US",
+                        "al:ios:url": "https://in.linkedin.com/in/pg100x",
+                        "og:description": "2x LinkedIn Top Voice - Business Intelligence, Data Analytics | Data Analyst - Renault Nissan Tech (RNTBCI) | Ex - Amazon, Teleperformance, Concentrix, Hyatt \u00b7 With a track record of an entrepreneurial journey, I&#39;ve steered and expanded different ventures, adept at strategic insight, agile leadership, and fostering high-performance teams, which taught me excellence in identifying opportunities.\n\nOne standout achievement:\n* Was featured in The Telegraph twice, showcasing my entrepreneurial ideas and startups in various business and entrepreneurship challenges.\n* Received an On-the-Spot Nomination Award as the Youngest Competitor, recognized for bringing innovative solutions, underscoring my results-driven approach. My commitment to data-driven decision-making ensures astute choices for sustainable growth.\n\nLet&#39;s connect to delve into entrepreneurship, data analytics, and explore potential synergies in our ever-evolving business sphere. I would love to learn more and continue to satisfy my insatiable a",
+                        "al:ios:app_store_id": "288429040",
+                        "platform": "https://static.licdn.com/aero-v1/sc/h/d024ltvhynt7j1oct8ctk47np",
+                        "twitter:image": "https://media.licdn.com/dms/image/v2/D5603AQFM5mOe3JBJ_Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1719430541584?e=2147483647&v=beta&t=vSBVhPWc40_Zo9tqMxcG2dLvtCnvB5o0wHoBfNawA34",
+                        "profile:last_name": "Goyal",
+                        "twitter:site": "@Linkedin",
+                        "litmsprofilename": "public-profile-frontend",
+                        "profile:first_name": "Piyush Kumar",
+                        "og:type": "profile",
+                        "twitter:title": "Piyush Kumar Goyal - Data Analyst - Renault Nissan Technology &amp; Business Centre India | LinkedIn",
+                        "al:ios:app_name": "LinkedIn",
+                        "og:title": "Piyush Kumar Goyal - Data Analyst - Renault Nissan Technology &amp; Business Centre India | LinkedIn",
+                        "pagekey": "public_profile_v3_mobile",
+                        "al:android:url": "https://in.linkedin.com/in/pg100x",
+                        "viewport": "width=device-width, initial-scale=1.0",
+                        "twitter:description": "2x LinkedIn Top Voice - Business Intelligence, Data Analytics | Data Analyst - Renault Nissan Tech (RNTBCI) | Ex - Amazon, Teleperformance, Concentrix, Hyatt \u00b7 With a track record of an entrepreneurial journey, I&#39;ve steered and expanded different ventures, adept at strategic insight, agile leadership, and fostering high-performance teams, which taught me excellence in identifying opportunities.\n\nOne standout achievement:\n* Was featured in The Telegraph twice, showcasing my entrepreneurial ideas and startups in various business and entrepreneurship challenges.\n* Received an On-the-Spot Nomination Award as the Youngest Competitor, recognized for bringing innovative solutions, underscoring my results-driven approach. My commitment to data-driven decision-making ensures astute choices for sustainable growth.\n\nLet&#39;s connect to delve into entrepreneurship, data analytics, and explore potential synergies in our ever-evolving business sphere. I would love to learn more and continue to satisfy my insatiable a",
+                        "ubba": "https://static.licdn.com/aero-v1/sc/h/ev3rrqp7pxz92prstldrycla5",
+                        "og:url": "https://in.linkedin.com/in/pg100x",
+                        "al:android:app_name": "LinkedIn"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://media.licdn.com/dms/image/v2/D5603AQFM5mOe3JBJ_Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1719430541584?e=2147483647&v=beta&t=vSBVhPWc40_Zo9tqMxcG2dLvtCnvB5o0wHoBfNawA34"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Arnab Chakraborty - Lead Vice President - HSBC | LinkedIn",
+            "htmlTitle": "Arnab Chakraborty - Lead Vice President - HSBC | LinkedIn",
+            "link": "https://in.linkedin.com/in/arnab-chakraborty-ds",
+            "displayLink": "in.linkedin.com",
+            "snippet": "As the Head of Data Analyst Chapter at India Wholesale Banking Data & Analytics, I specialize in driving business intelligence and data analytics excellence.",
+            "htmlSnippet": "As the Head of <b>Data Analyst</b> Chapter at <b>India</b> Wholesale Banking Data &amp; Analytics, I specialize in driving business intelligence and <b>data analytics</b> excellence.",
+            "formattedUrl": "https://in.linkedin.com/in/arnab-chakraborty-ds",
+            "htmlFormattedUrl": "https://in.linkedin.com/in/arnab-chakraborty-ds",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIS4quy6VIrKshKq3pDld0k4MrjNhkTOg-a12VjW17WDZ-FkM0fiyQeK-8&s",
+                        "width": "200",
+                        "height": "200"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://media.licdn.com/dms/image/v2/C5603AQF4FpO0UxlIcw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1650732186224?e=2147483647&v=beta&t=gKIeUleta6GnMRtbqAKFmXqQW-TNZzxo_8qqmbBTpb0",
+                        "twitter:card": "summary",
+                        "linkedin:pagetag": "openToProvider",
+                        "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
+                        "al:android:package": "com.linkedin.android",
+                        "bingbot": "nocache",
+                        "locale": "en_US",
+                        "al:ios:url": "https://in.linkedin.com/in/arnab-chakraborty-ds",
+                        "og:description": "Global Data Delivery Lead | Lead Vice President - Data Analytics  \u00b7 Data &amp; Analytics professional with decade of experience leading large-scale data projects. Proven expertise in Data Science, Data Engineering, and Data Architecture, with a track record of successfully executing cloud data migration strategies. A versatile Data Generalist with a commitment to delivering innovative solutions and driving business growth through data-driven insights.\n\nExperience Highlights:\nOver 13 years managing data products, providing bespoke solutions.\nExpertise in implementing large-scale data and analytics projects.\n\nRoles &amp; Responsibilities:\nLead, coordinate, and prioritize a diverse portfolio of data projects with complex demands and stakeholder engagement.\nDrive product development and execution with a world-class team of engineers and analysts.\nCollaborate closely with developers and stakeholders to identify data and functional requirements.\n\nAreas of Expertise:\nData Product Management\nProject Management\nMachi",
+                        "al:ios:app_store_id": "288429040",
+                        "platform": "https://static.licdn.com/aero-v1/sc/h/cx1lliooyx2mt58pbjo4d4t6e",
+                        "twitter:image": "https://media.licdn.com/dms/image/v2/C5603AQF4FpO0UxlIcw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1650732186224?e=2147483647&v=beta&t=gKIeUleta6GnMRtbqAKFmXqQW-TNZzxo_8qqmbBTpb0",
+                        "profile:last_name": "Chakraborty",
+                        "twitter:site": "@Linkedin",
+                        "litmsprofilename": "public-profile-frontend",
+                        "profile:first_name": "Arnab",
+                        "og:type": "profile",
+                        "twitter:title": "Arnab Chakraborty - Lead Vice President - HSBC | LinkedIn",
+                        "al:ios:app_name": "LinkedIn",
+                        "og:title": "Arnab Chakraborty - Lead Vice President - HSBC | LinkedIn",
+                        "pagekey": "public_profile_v3_mobile",
+                        "al:android:url": "https://in.linkedin.com/in/arnab-chakraborty-ds",
+                        "viewport": "width=device-width, initial-scale=1.0",
+                        "twitter:description": "Global Data Delivery Lead | Lead Vice President - Data Analytics  \u00b7 Data &amp; Analytics professional with decade of experience leading large-scale data projects. Proven expertise in Data Science, Data Engineering, and Data Architecture, with a track record of successfully executing cloud data migration strategies. A versatile Data Generalist with a commitment to delivering innovative solutions and driving business growth through data-driven insights.\n\nExperience Highlights:\nOver 13 years managing data products, providing bespoke solutions.\nExpertise in implementing large-scale data and analytics projects.\n\nRoles &amp; Responsibilities:\nLead, coordinate, and prioritize a diverse portfolio of data projects with complex demands and stakeholder engagement.\nDrive product development and execution with a world-class team of engineers and analysts.\nCollaborate closely with developers and stakeholders to identify data and functional requirements.\n\nAreas of Expertise:\nData Product Management\nProject Management\nMachi",
+                        "ubba": "https://static.licdn.com/aero-v1/sc/h/4z28ov3akhnpdu4wp0jesv54h",
+                        "og:url": "https://in.linkedin.com/in/arnab-chakraborty-ds",
+                        "al:android:app_name": "LinkedIn"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://media.licdn.com/dms/image/v2/C5603AQF4FpO0UxlIcw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1650732186224?e=2147483647&v=beta&t=gKIeUleta6GnMRtbqAKFmXqQW-TNZzxo_8qqmbBTpb0"
+                    }
+                ],
+                "Person": [
+                    {}
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Jahanvee Narang - Senior Data Analyst - Walmart | LinkedIn",
+            "htmlTitle": "Jahanvee Narang - Senior <b>Data Analyst</b> - Walmart | LinkedIn",
+            "link": "https://www.linkedin.com/in/jahanveenarang",
+            "displayLink": "www.linkedin.com",
+            "snippet": "A data analytics professional with over 4 years of experience transforming data into strategic business insights for Fortune 50 retailers.",
+            "htmlSnippet": "A <b>data analytics</b> professional with over 4 years of experience transforming data into strategic business insights for Fortune 50 retailers.",
+            "formattedUrl": "https://www.linkedin.com/in/jahanveenarang",
+            "htmlFormattedUrl": "https://www.linkedin.com/in/jahanveenarang",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxhjKjdV26OKw_QEXDgynavXbQ_dyK1w8ca_3rapxWhJaDAtuHh4YekWM&s",
+                        "width": "200",
+                        "height": "200"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://media.licdn.com/dms/image/v2/D5603AQFSgbVFLfgRzg/profile-displayphoto-shrink_200_200/B56ZZEYkOwGsAY-/0/1744904013604?e=2147483647&v=beta&t=yywbQqmXspiVjsW3orlnAL5Y9aWq7RFxvmzwF9yPxbE",
+                        "twitter:card": "summary",
+                        "linkedin:pagetag": "openToProvider",
+                        "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
+                        "al:android:package": "com.linkedin.android",
+                        "bingbot": "nocache",
+                        "locale": "en_US",
+                        "al:ios:url": "https://www.linkedin.com/in/jahanveenarang",
+                        "og:description": "Linkedin Top Voice | Analytics @ Walmart | Podcast Host | Featured at NYC billboard \u00b7 Hi, I am currently working for Walmart - Sam\u2019s club retail media platform-MAP. \nA data analytics professional with over 4 years of experience transforming data into strategic business insights for Fortune 50 retailers.\n\nHolds diverse experience across retail analytics, marketing optimization, and product experimentation at Walmart, Lowe&#39;s, and The Home Depot with technical expertise in SQL, Python, advanced visualization tools, and A/B testing experimentation .\n\nI am podcast host of the &quot;Decoding Data Analytics&quot; , digging into all things data, and recognised twice as a LinkedIn Top Voice.  \n\nGraduated with Masters from The State University of New York in business analytics. I also interned for an year alongside my masters as a data analyst intern for Jacobs School of Medicine and Biomedical Sciences.\n\nI was also featured at Times Square Billboard in 2023 by Topmate as one of the top 1% creators in the analyt",
+                        "al:ios:app_store_id": "288429040",
+                        "platform": "https://static.licdn.com/aero-v1/sc/h/cx1lliooyx2mt58pbjo4d4t6e",
+                        "twitter:image": "https://media.licdn.com/dms/image/v2/D5603AQFSgbVFLfgRzg/profile-displayphoto-shrink_200_200/B56ZZEYkOwGsAY-/0/1744904013604?e=2147483647&v=beta&t=yywbQqmXspiVjsW3orlnAL5Y9aWq7RFxvmzwF9yPxbE",
+                        "profile:last_name": "Narang",
+                        "twitter:site": "@Linkedin",
+                        "litmsprofilename": "public-profile-frontend",
+                        "profile:first_name": "Jahanvee",
+                        "og:type": "profile",
+                        "twitter:title": "Jahanvee Narang - Senior Data Analyst - Walmart | LinkedIn",
+                        "al:ios:app_name": "LinkedIn",
+                        "og:title": "Jahanvee Narang - Senior Data Analyst - Walmart | LinkedIn",
+                        "pagekey": "public_profile_v3_mobile",
+                        "al:android:url": "https://www.linkedin.com/in/jahanveenarang",
+                        "viewport": "width=device-width, initial-scale=1.0",
+                        "twitter:description": "Linkedin Top Voice | Analytics @ Walmart | Podcast Host | Featured at NYC billboard \u00b7 Hi, I am currently working for Walmart - Sam\u2019s club retail media platform-MAP. \nA data analytics professional with over 4 years of experience transforming data into strategic business insights for Fortune 50 retailers.\n\nHolds diverse experience across retail analytics, marketing optimization, and product experimentation at Walmart, Lowe&#39;s, and The Home Depot with technical expertise in SQL, Python, advanced visualization tools, and A/B testing experimentation .\n\nI am podcast host of the &quot;Decoding Data Analytics&quot; , digging into all things data, and recognised twice as a LinkedIn Top Voice.  \n\nGraduated with Masters from The State University of New York in business analytics. I also interned for an year alongside my masters as a data analyst intern for Jacobs School of Medicine and Biomedical Sciences.\n\nI was also featured at Times Square Billboard in 2023 by Topmate as one of the top 1% creators in the analyt",
+                        "ubba": "https://static.licdn.com/aero-v1/sc/h/4z28ov3akhnpdu4wp0jesv54h",
+                        "og:url": "https://www.linkedin.com/in/jahanveenarang",
+                        "al:android:app_name": "LinkedIn"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://media.licdn.com/dms/image/v2/D5603AQFSgbVFLfgRzg/profile-displayphoto-shrink_200_200/B56ZZEYkOwGsAY-/0/1744904013604?e=2147483647&v=beta&t=yywbQqmXspiVjsW3orlnAL5Y9aWq7RFxvmzwF9yPxbE"
+                    }
+                ],
+                "Person": [
+                    {}
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Waquar Ahmed - Senior Data Analyst - Sony India Software Centre ...",
+            "htmlTitle": "Waquar Ahmed - Senior <b>Data Analyst</b> - Sony <b>India</b> Software Centre ...",
+            "link": "https://in.linkedin.com/in/waquar-ahmed-dataanalyst",
+            "displayLink": "in.linkedin.com",
+            "snippet": "I'm a certified expert in Advance MYSQL, Python Programming Language, Data Analytics, Power BI, Machine Learning, ETL Tools & Cisco Splunk.",
+            "htmlSnippet": "I&#39;m a certified expert in Advance MYSQL, Python Programming Language, <b>Data Analytics</b>, Power BI, Machine Learning, ETL Tools &amp; Cisco Splunk.",
+            "formattedUrl": "https://in.linkedin.com/in/waquar-ahmed-dataanalyst",
+            "htmlFormattedUrl": "https://in.linkedin.com/in/waquar-ahmed-<b>dataanalyst</b>",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ88leTZpCHU66YFo6UjdIWbTJuBC_ChUJSSP-qTZgqnFCJTFg5dnaCoIl&s",
+                        "width": "200",
+                        "height": "200"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://media.licdn.com/dms/image/v2/D5603AQHiZcAPGml6iQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1723223317611?e=2147483647&v=beta&t=Su3t23xVYEyhHgZrNlqphOUNcE3Gu8pbW29t30IGClA",
+                        "twitter:card": "summary",
+                        "linkedin:pagetag": "openToProvider",
+                        "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
+                        "al:android:package": "com.linkedin.android",
+                        "bingbot": "nocache",
+                        "locale": "en_US",
+                        "al:ios:url": "https://in.linkedin.com/in/waquar-ahmed-dataanalyst",
+                        "og:description": "|\u2b50\u2b50\u2b50\u2b50\u2b50BCG Gamma Certified Strategist | Data Science Community Builder | Senior Data Analyst At SONY | SQL 5 Star Hacker Rank | Expert In Python, SQL, Power BI, Machine Learning and Generative AI| \u00b7 Hey there! I&#39;m Waquar, and I&#39;m a certified expert in Advance MYSQL, Python Programming Language, Data Analytics, Power BI, Machine Learning, ETL Tools &amp; Cisco Splunk. I&#39;ve got all the tools to transform your data into powerful insights.\n\nI&#39;m an analytical thinker and problem solver with strong communication skills. I love working &amp; collaborating with teams to help unlock the full potential of their data .Aiming to leverage my data-driven mindset to enhance business insights.\n\nWith 7 years of experience in industries ranging from Product Analytics &amp; IT to EdTech, I bring a wealth of knowledge and expertise to the table. I&#39;m well-versed in tech stacks like MS SQL Server, PostgreSQL, MySQL, Advance Excel, MS Power Bi, Data Analysis, Python libraries, &amp; Azure Cloud, so I c",
+                        "al:ios:app_store_id": "288429040",
+                        "platform": "https://static.licdn.com/aero-v1/sc/h/d024ltvhynt7j1oct8ctk47np",
+                        "twitter:image": "https://media.licdn.com/dms/image/v2/D5603AQHiZcAPGml6iQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1723223317611?e=2147483647&v=beta&t=Su3t23xVYEyhHgZrNlqphOUNcE3Gu8pbW29t30IGClA",
+                        "profile:last_name": "Ahmed",
+                        "twitter:site": "@Linkedin",
+                        "litmsprofilename": "public-profile-frontend",
+                        "profile:first_name": "Waquar",
+                        "og:type": "profile",
+                        "twitter:title": "Waquar Ahmed - Senior Data Analyst - Sony India Software Centre | LinkedIn",
+                        "al:ios:app_name": "LinkedIn",
+                        "og:title": "Waquar Ahmed - Senior Data Analyst - Sony India Software Centre | LinkedIn",
+                        "pagekey": "public_profile_v3_mobile",
+                        "al:android:url": "https://in.linkedin.com/in/waquar-ahmed-dataanalyst",
+                        "viewport": "width=device-width, initial-scale=1.0",
+                        "twitter:description": "|\u2b50\u2b50\u2b50\u2b50\u2b50BCG Gamma Certified Strategist | Data Science Community Builder | Senior Data Analyst At SONY | SQL 5 Star Hacker Rank | Expert In Python, SQL, Power BI, Machine Learning and Generative AI| \u00b7 Hey there! I&#39;m Waquar, and I&#39;m a certified expert in Advance MYSQL, Python Programming Language, Data Analytics, Power BI, Machine Learning, ETL Tools &amp; Cisco Splunk. I&#39;ve got all the tools to transform your data into powerful insights.\n\nI&#39;m an analytical thinker and problem solver with strong communication skills. I love working &amp; collaborating with teams to help unlock the full potential of their data .Aiming to leverage my data-driven mindset to enhance business insights.\n\nWith 7 years of experience in industries ranging from Product Analytics &amp; IT to EdTech, I bring a wealth of knowledge and expertise to the table. I&#39;m well-versed in tech stacks like MS SQL Server, PostgreSQL, MySQL, Advance Excel, MS Power Bi, Data Analysis, Python libraries, &amp; Azure Cloud, so I c",
+                        "ubba": "https://static.licdn.com/aero-v1/sc/h/ev3rrqp7pxz92prstldrycla5",
+                        "og:url": "https://in.linkedin.com/in/waquar-ahmed-dataanalyst",
+                        "al:android:app_name": "LinkedIn"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://media.licdn.com/dms/image/v2/D5603AQHiZcAPGml6iQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1723223317611?e=2147483647&v=beta&t=Su3t23xVYEyhHgZrNlqphOUNcE3Gu8pbW29t30IGClA"
+                    }
+                ],
+                "Person": [
+                    {}
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Ponnivalavan K - Data Analyst - Caterpillar Inc. | LinkedIn",
+            "htmlTitle": "Ponnivalavan K - <b>Data Analyst</b> - Caterpillar Inc. | LinkedIn",
+            "link": "https://in.linkedin.com/in/ponnivalavan-k-60892a18",
+            "displayLink": "in.linkedin.com",
+            "snippet": "Data Analyst at Caterpillar focused on Drive train Controls Validation. Caterpillar Inc. PSG College of Technology. Erode, Tamil Nadu, India. 428 followers 415\u00a0...",
+            "htmlSnippet": "<b>Data Analyst</b> at Caterpillar focused on Drive train Controls Validation. Caterpillar Inc. PSG College of Technology. Erode, Tamil Nadu, <b>India</b>. 428 followers 415&nbsp;...",
+            "formattedUrl": "https://in.linkedin.com/in/ponnivalavan-k-60892a18",
+            "htmlFormattedUrl": "https://in.linkedin.com/in/ponnivalavan-k-60892a18",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpEnMCOR-ytx0ZXHO2rgJlezc4CfXm5iHZMEjL8fSfOciDiTG4CU0Uc8QO&s",
+                        "width": "225",
+                        "height": "225"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://static.licdn.com/aero-v1/sc/h/1c5u578iilxfi4m4dvc4q810q",
+                        "twitter:card": "summary",
+                        "linkedin:pagetag": "openToProvider",
+                        "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
+                        "al:android:package": "com.linkedin.android",
+                        "bingbot": "nocache",
+                        "locale": "en_US",
+                        "al:ios:url": "https://in.linkedin.com/in/ponnivalavan-k-60892a18",
+                        "og:description": "Data Analyst at Caterpillar focused on Drive train Controls Validation  \u00b7 I\u2019m a Senior Associate Engineer at Caterpillar on a data analytics team focused on Drive train controls validation and machinery health. As an analyst, my primary role is to provide actionable insights for the data (typically high frequency time series data) provided and also technically lead the team. Recently, I&#39;ve started developing scripts in python for analytics purpose. I also do quite a bit of work in PV-Wave. \n\nI graduated with a BE in Instrumentation &amp; Control Systems Engineering. \n\nFavorite Quote: &quot;I want to be remembered as the guy who gave his all whenever he was on the field&quot;  - Walter Payton. \u00b7 Experience: Caterpillar Inc. \u00b7 Education: PSG College of Technology \u00b7 Location: Erode \u00b7 415 connections on LinkedIn. View Ponnivalavan K\u2019s profile on LinkedIn, a professional community of 1 billion members.",
+                        "al:ios:app_store_id": "288429040",
+                        "platform": "https://static.licdn.com/aero-v1/sc/h/coquaw2cudxs4ux1s51aesui5",
+                        "twitter:image": "https://static.licdn.com/aero-v1/sc/h/1c5u578iilxfi4m4dvc4q810q",
+                        "profile:last_name": "K",
+                        "twitter:site": "@Linkedin",
+                        "litmsprofilename": "public-profile-frontend",
+                        "profile:first_name": "Ponnivalavan",
+                        "og:type": "profile",
+                        "twitter:title": "Ponnivalavan K - Data Analyst - Caterpillar Inc. | LinkedIn",
+                        "al:ios:app_name": "LinkedIn",
+                        "og:title": "Ponnivalavan K - Data Analyst - Caterpillar Inc. | LinkedIn",
+                        "pagekey": "public_profile_v3_mobile",
+                        "al:android:url": "https://in.linkedin.com/in/ponnivalavan-k-60892a18",
+                        "viewport": "width=device-width, initial-scale=1.0",
+                        "twitter:description": "Data Analyst at Caterpillar focused on Drive train Controls Validation  \u00b7 I\u2019m a Senior Associate Engineer at Caterpillar on a data analytics team focused on Drive train controls validation and machinery health. As an analyst, my primary role is to provide actionable insights for the data (typically high frequency time series data) provided and also technically lead the team. Recently, I&#39;ve started developing scripts in python for analytics purpose. I also do quite a bit of work in PV-Wave. \n\nI graduated with a BE in Instrumentation &amp; Control Systems Engineering. \n\nFavorite Quote: &quot;I want to be remembered as the guy who gave his all whenever he was on the field&quot;  - Walter Payton. \u00b7 Experience: Caterpillar Inc. \u00b7 Education: PSG College of Technology \u00b7 Location: Erode \u00b7 415 connections on LinkedIn. View Ponnivalavan K\u2019s profile on LinkedIn, a professional community of 1 billion members.",
+                        "ubba": "https://static.licdn.com/aero-v1/sc/h/3kbmdc33ogmpo0bs8dolr9yre",
+                        "og:url": "https://in.linkedin.com/in/ponnivalavan-k-60892a18",
+                        "al:android:app_name": "LinkedIn"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://static.licdn.com/aero-v1/sc/h/1c5u578iilxfi4m4dvc4q810q"
+                    }
+                ],
+                "Person": [
+                    {}
+                ]
+            }
+        }
+    ]
+}

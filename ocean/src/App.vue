@@ -37,6 +37,7 @@ body{
   font-family: 'Playpen Sans Hebrew', cursive;
 }
 header {
+  color: aliceblue;
   display: fixed;
   top: 0;
   margin-top: 0;
@@ -51,9 +52,9 @@ header {
   max-width: 99vw;
   justify-content: center;
   align-items: center;
-  margin-bottom: 7vh;
   display: flex;
   font-family: 'Playpen Sans Hebrew', cursive;
+  font-size: clamp(0.75rem, 0.1843rem + 2.4465vw, 1.75rem);
 }
 .Output {
   width: 90%;
@@ -63,5 +64,6 @@ header {
   align-items: center;
   display: flex;
   font-family: 'Playpen Sans Hebrew', cursive;
+  font-size: clamp(0.75rem, 0.1843rem + 2.4465vw, 1.75rem);
 }
 </style>
