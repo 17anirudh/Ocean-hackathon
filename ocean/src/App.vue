@@ -22,6 +22,36 @@ function handleData(newData) {
   <div class="Output">
     <Output :data="data" />
   </div>
+  <div class="footer">
+    <footer>
+      <span class="text">Made using </span>
+      <span class="gemini">
+        <a href="https://gemini.google.com/app" target="_blank" rel="noopener noreferrer">
+          <img src="https://www.gstatic.com/lamda/images/gemini_sparkle_v002_d4735304ff6292a690345.svg" alt="Gemini Logo" width="40" height="40">
+        </a>
+      </span>
+      <span class="google">
+        <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+          <img src="https://www.google.com/favicon.ico" alt="Google Logo" width="40" height="40">
+        </a>
+      </span>
+      <span class="vue">
+        <a href="https://vuejs.org/" target="_blank" rel="noopener noreferrer">
+          <img src="/src/assets/favicon.ico" alt="Vue Logo" width="40" height="40">
+        </a>
+      </span>
+      <span class="flask">
+        <a href="https://flask.palletsprojects.com/" target="_blank" rel="noopener noreferrer">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Flask_logo.svg" alt="Flask Logo" width="70" height="40">
+        </a>
+      </span>
+      <span class="bun">
+        <a href="https://bun.sh/" target="_blank" rel="noopener noreferrer">
+          <img src="https://bun.sh/logo.svg" alt="Bun Logo" width="40" height="40">
+        </a>
+      </span>
+    </footer>
+  </div>
 </template>
 
 <style>
@@ -31,6 +61,7 @@ function handleData(newData) {
   padding: 0;
 }
 body{
+  height: 100%;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -65,5 +96,14 @@ header {
   display: flex;
   font-family: 'Playpen Sans Hebrew', cursive;
   font-size: clamp(0.75rem, 0.1843rem + 2.4465vw, 1.75rem);
+}
+footer {
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+span.flask > a{
+  color: aliceblue;
 }
 </style>

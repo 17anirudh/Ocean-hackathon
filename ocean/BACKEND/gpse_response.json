@@ -7,9 +7,9 @@
     "queries": {
         "request": [
             {
-                "title": "Google Custom Search - site:linkedin.com/in data analyst  AND INDIA",
-                "totalResults": "13000000",
-                "searchTerms": "site:linkedin.com/in data analyst  AND INDIA",
+                "title": "Google Custom Search - site:linkedin.com/in Healthcare (medicine, pharma and nurse) General Medicine AND INDIA",
+                "totalResults": "146000",
+                "searchTerms": "site:linkedin.com/in Healthcare (medicine, pharma and nurse) General Medicine AND INDIA",
                 "count": 10,
                 "startIndex": 1,
                 "inputEncoding": "utf8",
@@ -20,9 +20,9 @@
         ],
         "nextPage": [
             {
-                "title": "Google Custom Search - site:linkedin.com/in data analyst  AND INDIA",
-                "totalResults": "13000000",
-                "searchTerms": "site:linkedin.com/in data analyst  AND INDIA",
+                "title": "Google Custom Search - site:linkedin.com/in Healthcare (medicine, pharma and nurse) General Medicine AND INDIA",
+                "totalResults": "146000",
+                "searchTerms": "site:linkedin.com/in Healthcare (medicine, pharma and nurse) General Medicine AND INDIA",
                 "count": 10,
                 "startIndex": 11,
                 "inputEncoding": "utf8",
@@ -36,22 +36,432 @@
         "title": "rod"
     },
     "searchInformation": {
-        "searchTime": 0.535621,
-        "formattedSearchTime": "0.54",
-        "totalResults": "13000000",
-        "formattedTotalResults": "13,000,000"
+        "searchTime": 0.597828,
+        "formattedSearchTime": "0.60",
+        "totalResults": "146000",
+        "formattedTotalResults": "146,000"
     },
     "items": [
         {
             "kind": "customsearch#result",
-            "title": "Muskan Kashyap - Data Analyst/Scientist - Freelance | LinkedIn",
-            "htmlTitle": "Muskan Kashyap - <b>Data Analyst</b>/Scientist - Freelance | LinkedIn",
-            "link": "https://in.linkedin.com/in/muskan-kashyap-480182275",
+            "title": "Amith chidambara sharma - Research associate ll - Advarra | LinkedIn",
+            "htmlTitle": "Amith chidambara sharma - Research associate ll - Advarra | LinkedIn",
+            "link": "https://in.linkedin.com/in/amith-chidambara-sharma-684669205?trk=public_profile_samename-profile",
             "displayLink": "in.linkedin.com",
-            "snippet": "Google Certified Business Intelligence & Data Analyst | Python, SQL, R, Tableau, Power BI, Excel | Mathematician & Researcher \u00b7 Numbers have always been my\u00a0...",
-            "htmlSnippet": "Google Certified Business Intelligence &amp; <b>Data Analyst</b> | Python, SQL, R, Tableau, Power BI, Excel | Mathematician &amp; Researcher \u00b7 Numbers have always been my&nbsp;...",
-            "formattedUrl": "https://in.linkedin.com/in/muskan-kashyap-480182275",
-            "htmlFormattedUrl": "https://in.linkedin.com/in/muskan-kashyap-480182275",
+            "snippet": "Bengaluru, Karnataka, India. 595 followers 500+ connections. See your mutual ... See who you know in common. Get introduced. Contact Amith chidambara\u00a0...",
+            "htmlSnippet": "Bengaluru, Karnataka, <b>India</b>. 595 followers 500+ connections. See your mutual ... See who you know in <b>common</b>. Get introduced. Contact Amith chidambara&nbsp;...",
+            "formattedUrl": "https://in.linkedin.com/in/amith-chidambara-sharma-684669205?trk...",
+            "htmlFormattedUrl": "https://in.linkedin.com/in/amith-chidambara-sharma-684669205?trk...",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2fbxpa157CLISkxxg8y5T91uz_Ce8JOwwURrtdk2fPzMnkfFquJK3&s",
+                        "width": "96",
+                        "height": "96"
+                    }
+                ],
+                "ProfilePage": [
+                    {}
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://static.licdn.com/scds/common/u/images/email/artdeco/logos/96/linkedin-bug-color.png",
+                        "twitter:card": "summary",
+                        "linkedin:pagetag": "openToProvider",
+                        "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
+                        "al:android:package": "com.linkedin.android",
+                        "bingbot": "nocache",
+                        "locale": "en_US",
+                        "al:ios:url": "https://in.linkedin.com/in/amith-chidambara-sharma-684669205",
+                        "og:description": "Wildlife enthusiast, Herpetology, Wildlife photographer. \u00b7 Experience: Advarra \u00b7 Education: Jain (Deemed-to-be University) \u00b7 Location: Bengaluru \u00b7 500+ connections on LinkedIn. View Amith chidambara sharma\u2019s profile on LinkedIn, a professional community of 1 billion members.",
+                        "al:ios:app_store_id": "288429040",
+                        "platform": "https://static.licdn.com/aero-v1/sc/h/d024ltvhynt7j1oct8ctk47np",
+                        "twitter:image": "https://media.licdn.com/dms/image/v2/D5603AQE40b83UHKXQA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1701932713200?e=2147483647&v=beta&t=hshjqIhMUfigjjSQCqMc6FAl3S5tnX2rJ9gfWFAOCNY",
+                        "profile:last_name": "sharma",
+                        "twitter:site": "@Linkedin",
+                        "litmsprofilename": "public-profile-frontend",
+                        "profile:first_name": "Amith chidambara",
+                        "og:type": "profile",
+                        "twitter:title": "Amith chidambara sharma - Research associate ll - Advarra | LinkedIn",
+                        "al:ios:app_name": "LinkedIn",
+                        "og:title": "Amith chidambara sharma - Research associate ll - Advarra | LinkedIn",
+                        "pagekey": "public_profile_v3_mobile",
+                        "al:android:url": "https://in.linkedin.com/in/amith-chidambara-sharma-684669205",
+                        "viewport": "width=device-width, initial-scale=1.0",
+                        "twitter:description": "Wildlife enthusiast, Herpetology, Wildlife photographer. \u00b7 Experience: Advarra \u00b7 Education: Jain (Deemed-to-be University) \u00b7 Location: Bengaluru \u00b7 500+ connections on LinkedIn. View Amith chidambara sharma\u2019s profile on LinkedIn, a professional community of 1 billion members.",
+                        "ubba": "https://static.licdn.com/aero-v1/sc/h/ev3rrqp7pxz92prstldrycla5",
+                        "og:url": "https://in.linkedin.com/in/amith-chidambara-sharma-684669205",
+                        "al:android:app_name": "LinkedIn"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://static.licdn.com/scds/common/u/images/email/artdeco/logos/96/linkedin-bug-color.png"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Aswin Anil - Ernakulam, Kerala, India | Professional Profile | LinkedIn",
+            "htmlTitle": "Aswin Anil - Ernakulam, Kerala, <b>India</b> | Professional Profile | LinkedIn",
+            "link": "https://in.linkedin.com/in/aswin-anil-51b288190?trk=public_profile_browsemap_profile-result-card_result-card_full-click",
+            "displayLink": "in.linkedin.com",
+            "snippet": "Attended Amrita Institute of Medical Sciences and Research Centre \u00b7 Posted on departments of Medical Oncology and Hematology, Gastroenterology, General\u00a0...",
+            "htmlSnippet": "Attended Amrita Institute of <b>Medical</b> Sciences and Research Centre \u00b7 Posted on departments of <b>Medical</b> Oncology and Hematology, Gastroenterology, <b>General</b>&nbsp;...",
+            "formattedUrl": "https://in.linkedin.com/in/aswin-anil-51b288190?trk=public...full...",
+            "htmlFormattedUrl": "https://in.linkedin.com/in/aswin-anil-51b288190?trk=public...full...",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2fbxpa157CLISkxxg8y5T91uz_Ce8JOwwURrtdk2fPzMnkfFquJK3&s",
+                        "width": "96",
+                        "height": "96"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://static.licdn.com/scds/common/u/images/email/artdeco/logos/96/linkedin-bug-color.png",
+                        "twitter:card": "summary",
+                        "linkedin:pagetag": "openToProvider",
+                        "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
+                        "al:android:package": "com.linkedin.android",
+                        "bingbot": "nocache",
+                        "locale": "en_US",
+                        "al:ios:url": "https://in.linkedin.com/in/aswin-anil-51b288190",
+                        "og:description": "Attended Amrita Institute of Medical Sciences and Research Centre \u00b7 Posted on departments of Medical Oncology and Hematology, Gastroenterology, General Medicine, Pediatric Cardiology, Adult Cardiology, Pulmonology/Respiratory Medicine, Emergency Medicine, and ICU.\tParticipated in the Antibiotic Stewardship Program, promoting rational prescribing and judicious use of antibiotics. \u00b7 Education: Amrita Institute of Medical Sciences and Research Centre \u00b7 Location: Ernakulam \u00b7 294 connections on LinkedIn. View Aswin Anil\u2019s profile on LinkedIn, a professional community of 1 billion members.",
+                        "al:ios:app_store_id": "288429040",
+                        "platform": "https://static.licdn.com/aero-v1/sc/h/d024ltvhynt7j1oct8ctk47np",
+                        "twitter:image": "https://media.licdn.com/dms/image/v2/D5603AQFy-7E9z093EA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1722877788607?e=2147483647&v=beta&t=9ZQXBZgXjsDgYW7Em-b2pvVlmphWXjGOMI2WY7d14Nw",
+                        "profile:last_name": "Anil",
+                        "twitter:site": "@Linkedin",
+                        "litmsprofilename": "public-profile-frontend",
+                        "profile:first_name": "Aswin",
+                        "og:type": "profile",
+                        "twitter:title": "Aswin Anil - Ernakulam, Kerala, India | Professional Profile | LinkedIn",
+                        "al:ios:app_name": "LinkedIn",
+                        "og:title": "Aswin Anil - Ernakulam, Kerala, India | Professional Profile | LinkedIn",
+                        "pagekey": "public_profile_v3_mobile",
+                        "al:android:url": "https://in.linkedin.com/in/aswin-anil-51b288190",
+                        "viewport": "width=device-width, initial-scale=1.0",
+                        "twitter:description": "Attended Amrita Institute of Medical Sciences and Research Centre \u00b7 Posted on departments of Medical Oncology and Hematology, Gastroenterology, General Medicine, Pediatric Cardiology, Adult Cardiology, Pulmonology/Respiratory Medicine, Emergency Medicine, and ICU.\tParticipated in the Antibiotic Stewardship Program, promoting rational prescribing and judicious use of antibiotics. \u00b7 Education: Amrita Institute of Medical Sciences and Research Centre \u00b7 Location: Ernakulam \u00b7 294 connections on LinkedIn. View Aswin Anil\u2019s profile on LinkedIn, a professional community of 1 billion members.",
+                        "ubba": "https://static.licdn.com/aero-v1/sc/h/ev3rrqp7pxz92prstldrycla5",
+                        "og:url": "https://in.linkedin.com/in/aswin-anil-51b288190",
+                        "al:android:app_name": "LinkedIn"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://static.licdn.com/scds/common/u/images/email/artdeco/logos/96/linkedin-bug-color.png"
+                    }
+                ],
+                "Person": [
+                    {}
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Mohammad Shahzeb ALAM - Healthcare Recruiter - Health ...",
+            "htmlTitle": "Mohammad Shahzeb ALAM - <b>Healthcare</b> Recruiter - Health ...",
+            "link": "https://in.linkedin.com/in/mohammad-shahzeb-alam-9054931b8",
+            "displayLink": "in.linkedin.com",
+            "snippet": "healthcare Recruiter- Travel Nurses. Health Saviours Jawaharlal Nehru Technological University. Hyderabad, Telangana, India. 9 followers 9 connections. See your\u00a0...",
+            "htmlSnippet": "<b>healthcare</b> Recruiter- Travel <b>Nurses</b>. Health Saviours Jawaharlal Nehru Technological University. Hyderabad, Telangana, <b>India</b>. 9 followers 9 connections. See your&nbsp;...",
+            "formattedUrl": "https://in.linkedin.com/in/mohammad-shahzeb-alam-9054931b8",
+            "htmlFormattedUrl": "https://in.linkedin.com/in/mohammad-shahzeb-alam-9054931b8",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2fbxpa157CLISkxxg8y5T91uz_Ce8JOwwURrtdk2fPzMnkfFquJK3&s",
+                        "width": "96",
+                        "height": "96"
+                    }
+                ],
+                "ProfilePage": [
+                    {}
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://static.licdn.com/scds/common/u/images/email/artdeco/logos/96/linkedin-bug-color.png",
+                        "twitter:card": "summary",
+                        "linkedin:pagetag": "openToProvider",
+                        "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
+                        "al:android:package": "com.linkedin.android",
+                        "bingbot": "nocache",
+                        "locale": "en_US",
+                        "al:ios:url": "https://in.linkedin.com/in/mohammad-shahzeb-alam-9054931b8",
+                        "og:description": "healthcare Recruiter- Travel Nurses \u00b7 Experience: Health Saviours \u00b7 Education: Jawaharlal Nehru Technological University \u00b7 Location: Hyderabad \u00b7 9 connections on LinkedIn. View Mohammad Shahzeb ALAM\u2019s profile on LinkedIn, a professional community of 1 billion members.",
+                        "al:ios:app_store_id": "288429040",
+                        "platform": "https://static.licdn.com/aero-v1/sc/h/d024ltvhynt7j1oct8ctk47np",
+                        "twitter:image": "https://media.licdn.com/dms/image/v2/D5603AQFa7H-pzFvfLA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1669301171562?e=2147483647&v=beta&t=4MZeaTKRna_ZE1E4fyoGRGPhovrExedU21VKaTCt4MY",
+                        "profile:last_name": "ALAM",
+                        "twitter:site": "@Linkedin",
+                        "litmsprofilename": "public-profile-frontend",
+                        "profile:first_name": "Mohammad Shahzeb",
+                        "og:type": "profile",
+                        "twitter:title": "Mohammad Shahzeb ALAM - Healthcare Recruiter - Health Saviours | LinkedIn",
+                        "al:ios:app_name": "LinkedIn",
+                        "og:title": "Mohammad Shahzeb ALAM - Healthcare Recruiter - Health Saviours | LinkedIn",
+                        "pagekey": "public_profile_v3_mobile",
+                        "al:android:url": "https://in.linkedin.com/in/mohammad-shahzeb-alam-9054931b8",
+                        "viewport": "width=device-width, initial-scale=1.0",
+                        "twitter:description": "healthcare Recruiter- Travel Nurses \u00b7 Experience: Health Saviours \u00b7 Education: Jawaharlal Nehru Technological University \u00b7 Location: Hyderabad \u00b7 9 connections on LinkedIn. View Mohammad Shahzeb ALAM\u2019s profile on LinkedIn, a professional community of 1 billion members.",
+                        "ubba": "https://static.licdn.com/aero-v1/sc/h/ev3rrqp7pxz92prstldrycla5",
+                        "og:url": "https://in.linkedin.com/in/mohammad-shahzeb-alam-9054931b8",
+                        "al:android:app_name": "LinkedIn"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://static.licdn.com/scds/common/u/images/email/artdeco/logos/96/linkedin-bug-color.png"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Siddu L. - Clinical Faculty - KLE Academy of Higher Education and ...",
+            "htmlTitle": "Siddu L. - Clinical Faculty - KLE Academy of Higher Education and ...",
+            "link": "https://in.linkedin.com/in/siddulagamappagol1906?trk=public_profile_browsemap",
+            "displayLink": "in.linkedin.com",
+            "snippet": "Clinical Faculty to MBBS & PG and 5 years of experience in Medical research and Bio pharmaceuticals industry. \u00b7 Faculty to MBBS.",
+            "htmlSnippet": "Clinical Faculty to MBBS &amp; PG and 5 years of experience in <b>Medical</b> research and Bio <b>pharmaceuticals</b> industry. \u00b7 Faculty to MBBS.",
+            "formattedUrl": "https://in.linkedin.com/in/siddulagamappagol1906?trk=public_profile...",
+            "htmlFormattedUrl": "https://in.linkedin.com/in/siddulagamappagol1906?trk=public_profile...",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2fbxpa157CLISkxxg8y5T91uz_Ce8JOwwURrtdk2fPzMnkfFquJK3&s",
+                        "width": "96",
+                        "height": "96"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://static.licdn.com/scds/common/u/images/email/artdeco/logos/96/linkedin-bug-color.png",
+                        "twitter:card": "summary",
+                        "linkedin:pagetag": "openToProvider",
+                        "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
+                        "al:android:package": "com.linkedin.android",
+                        "bingbot": "nocache",
+                        "locale": "en_US",
+                        "al:ios:url": "https://in.linkedin.com/in/siddulagamappagol1906",
+                        "og:description": "Clinical Faculty to MBBS &amp; PG and 5 years of experience in Medical research and Bio pharmaceuticals industry. \u00b7 Faculty to MBBS. \n\nApprove reports from Central Laboratory, Hospital. \n\nPeriodic rounds to Critical ICU wards. \n\nPeriodic rounds to CSSD. \n\nPeriodic rounds to Dialysis Patient care Units. \n\nHospital Infection Control Committee Member. \n\nNABH, NABL, ICTC &amp; NTEP Audits. \n\n\n\nExperience in Medical research and Bio-Pharmaceuticals Industry:\n\nExpertise in Analytical, molecular, Cell banking and cell based methods. ( eg, Bioassays, binding assays, RT-PCR, Cell line maintenance, Cloning, Western blotting, SDS_PAGE, protein expression and purification)\n\n\nExpert at GRAPH-PAD PRISM, GEN 5, BD-FACS suite and STEP-ONE PLUS software applications.\n\nMethod validation protocols and execution of projects.\n\nSOP, STP, Change control, CAPA, Deviation handling, OOS, OOT.\n\nParticipation in Technology transfer from clients.\n\nGMP, GLP, GDP and CLSI.\n\nInvestigations &amp; Audits. \u00b7 Experience:  KLE Academy of Highe",
+                        "al:ios:app_store_id": "288429040",
+                        "platform": "https://static.licdn.com/aero-v1/sc/h/d024ltvhynt7j1oct8ctk47np",
+                        "twitter:image": "https://static.licdn.com/aero-v1/sc/h/1c5u578iilxfi4m4dvc4q810q",
+                        "profile:last_name": "L.",
+                        "twitter:site": "@Linkedin",
+                        "litmsprofilename": "public-profile-frontend",
+                        "profile:first_name": "Siddu",
+                        "og:type": "profile",
+                        "twitter:title": "Siddu L. - Clinical Faculty -  KLE Academy of Higher Education and Research | LinkedIn",
+                        "al:ios:app_name": "LinkedIn",
+                        "og:title": "Siddu L. - Clinical Faculty -  KLE Academy of Higher Education and Research | LinkedIn",
+                        "pagekey": "public_profile_v3_mobile",
+                        "al:android:url": "https://in.linkedin.com/in/siddulagamappagol1906",
+                        "viewport": "width=device-width, initial-scale=1.0",
+                        "twitter:description": "Clinical Faculty to MBBS &amp; PG and 5 years of experience in Medical research and Bio pharmaceuticals industry. \u00b7 Faculty to MBBS. \n\nApprove reports from Central Laboratory, Hospital. \n\nPeriodic rounds to Critical ICU wards. \n\nPeriodic rounds to CSSD. \n\nPeriodic rounds to Dialysis Patient care Units. \n\nHospital Infection Control Committee Member. \n\nNABH, NABL, ICTC &amp; NTEP Audits. \n\n\n\nExperience in Medical research and Bio-Pharmaceuticals Industry:\n\nExpertise in Analytical, molecular, Cell banking and cell based methods. ( eg, Bioassays, binding assays, RT-PCR, Cell line maintenance, Cloning, Western blotting, SDS_PAGE, protein expression and purification)\n\n\nExpert at GRAPH-PAD PRISM, GEN 5, BD-FACS suite and STEP-ONE PLUS software applications.\n\nMethod validation protocols and execution of projects.\n\nSOP, STP, Change control, CAPA, Deviation handling, OOS, OOT.\n\nParticipation in Technology transfer from clients.\n\nGMP, GLP, GDP and CLSI.\n\nInvestigations &amp; Audits. \u00b7 Experience:  KLE Academy of Highe",
+                        "ubba": "https://static.licdn.com/aero-v1/sc/h/ev3rrqp7pxz92prstldrycla5",
+                        "og:url": "https://in.linkedin.com/in/siddulagamappagol1906",
+                        "al:android:app_name": "LinkedIn"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://static.licdn.com/scds/common/u/images/email/artdeco/logos/96/linkedin-bug-color.png"
+                    }
+                ],
+                "Person": [
+                    {}
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Santosh Kale - Internal Medicine Hospitalist - Lowell General Hospital",
+            "htmlTitle": "Santosh Kale - <b>Internal Medicine</b> Hospitalist - Lowell General <b>Hospital</b>",
+            "link": "https://www.linkedin.com/in/santosh-kale-b8a10532",
+            "displayLink": "www.linkedin.com",
+            "snippet": "Doctor \u00b7 Experience: Lowell General Hospital \u00b7 Education: DAV public school \u00b7 Location: Lowell \u00b7 29 connections on LinkedIn. View Santosh Kale's profile on\u00a0...",
+            "htmlSnippet": "Doctor \u00b7 Experience: Lowell <b>General Hospital</b> \u00b7 Education: DAV public school \u00b7 Location: Lowell \u00b7 29 connections on LinkedIn. View Santosh Kale&#39;s profile on&nbsp;...",
+            "formattedUrl": "https://www.linkedin.com/in/santosh-kale-b8a10532",
+            "htmlFormattedUrl": "https://www.linkedin.com/in/santosh-kale-b8a10532",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2fbxpa157CLISkxxg8y5T91uz_Ce8JOwwURrtdk2fPzMnkfFquJK3&s",
+                        "width": "96",
+                        "height": "96"
+                    }
+                ],
+                "ProfilePage": [
+                    {}
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://static.licdn.com/scds/common/u/images/email/artdeco/logos/96/linkedin-bug-color.png",
+                        "twitter:card": "summary",
+                        "linkedin:pagetag": "openToProvider",
+                        "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
+                        "al:android:package": "com.linkedin.android",
+                        "bingbot": "nocache",
+                        "locale": "en_US",
+                        "al:ios:url": "https://www.linkedin.com/in/santosh-kale-b8a10532",
+                        "og:description": "Doctor \u00b7 Experience: Lowell General Hospital \u00b7 Education: DAV public school \u00b7 Location: Lowell \u00b7 29 connections on LinkedIn. View Santosh Kale\u2019s profile on LinkedIn, a professional community of 1 billion members.",
+                        "al:ios:app_store_id": "288429040",
+                        "platform": "https://static.licdn.com/aero-v1/sc/h/exkw4l4akgsym3om6tnupboq6",
+                        "twitter:image": "https://static.licdn.com/aero-v1/sc/h/1c5u578iilxfi4m4dvc4q810q",
+                        "profile:last_name": "Kale",
+                        "twitter:site": "@Linkedin",
+                        "litmsprofilename": "public-profile-frontend",
+                        "profile:first_name": "Santosh",
+                        "og:type": "profile",
+                        "twitter:title": "Santosh Kale - Internal Medicine Hospitalist - Lowell General Hospital | LinkedIn",
+                        "al:ios:app_name": "LinkedIn",
+                        "og:title": "Santosh Kale - Internal Medicine Hospitalist - Lowell General Hospital | LinkedIn",
+                        "pagekey": "public_profile_v3_mobile",
+                        "al:android:url": "https://www.linkedin.com/in/santosh-kale-b8a10532",
+                        "viewport": "width=device-width, initial-scale=1.0",
+                        "twitter:description": "Doctor \u00b7 Experience: Lowell General Hospital \u00b7 Education: DAV public school \u00b7 Location: Lowell \u00b7 29 connections on LinkedIn. View Santosh Kale\u2019s profile on LinkedIn, a professional community of 1 billion members.",
+                        "ubba": "https://static.licdn.com/aero-v1/sc/h/dlxevueaszn1k5tiemxu7kmqy",
+                        "og:url": "https://www.linkedin.com/in/santosh-kale-b8a10532",
+                        "al:android:app_name": "LinkedIn"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://static.licdn.com/scds/common/u/images/email/artdeco/logos/96/linkedin-bug-color.png"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Mareena Johnson - Advanced Practice Nurse - Atlantic Health ...",
+            "htmlTitle": "Mareena Johnson - Advanced <b>Practice Nurse</b> - Atlantic Health ...",
+            "link": "https://www.linkedin.com/in/mareena-johnson-22717027",
+            "displayLink": "www.linkedin.com",
+            "snippet": "CVICU nurse. Medical Trust Hospital, Kochi. Sep 1996 - Dec 2000 4 years 4 months. Cochin Area, India. Inlaks General Hospital Graphic. OR NURSE. Inlaks General\u00a0...",
+            "htmlSnippet": "CVICU <b>nurse</b>. <b>Medical</b> Trust <b>Hospital</b>, Kochi. Sep 1996 - Dec 2000 4 years 4 months. Cochin Area, <b>India</b>. Inlaks <b>General Hospital</b> Graphic. OR <b>NURSE</b>. Inlaks <b>General</b>&nbsp;...",
+            "formattedUrl": "https://www.linkedin.com/in/mareena-johnson-22717027",
+            "htmlFormattedUrl": "https://www.linkedin.com/in/mareena-johnson-22717027",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7oNG8ByHUOqxjlw-_G766ZRSOm3bJmEKqqbHcFUHOJ3REu3Sw-D7aXPX_&s",
+                        "width": "200",
+                        "height": "200"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://media.licdn.com/dms/image/v2/D4E03AQEu7YUADXHlZA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1675199994147?e=2147483647&v=beta&t=yur2tJBObhxF4ajuJz6L_A-P9w0L6G8-YEPQgH5QgTk",
+                        "twitter:card": "summary",
+                        "linkedin:pagetag": "openToProvider",
+                        "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
+                        "al:android:package": "com.linkedin.android",
+                        "bingbot": "nocache",
+                        "locale": "en_US",
+                        "al:ios:url": "https://www.linkedin.com/in/mareena-johnson-22717027",
+                        "og:description": "FNP \u00b7 I am a Family Nurse Practitioner who is working as a nurse practitioner in a TBI unit with 22 years of critical care experience seeking employment as a Nurse Practitioner. \u00b7 Experience: Atlantic Health System \u00b7 Education: The College of New Rochelle \u00b7 Location: Andover \u00b7 55 connections on LinkedIn. View Mareena Johnson\u2019s profile on LinkedIn, a professional community of 1 billion members.",
+                        "al:ios:app_store_id": "288429040",
+                        "platform": "https://static.licdn.com/aero-v1/sc/h/cx1lliooyx2mt58pbjo4d4t6e",
+                        "twitter:image": "https://media.licdn.com/dms/image/v2/D4E03AQEu7YUADXHlZA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1675199994147?e=2147483647&v=beta&t=yur2tJBObhxF4ajuJz6L_A-P9w0L6G8-YEPQgH5QgTk",
+                        "profile:last_name": "Johnson",
+                        "twitter:site": "@Linkedin",
+                        "litmsprofilename": "public-profile-frontend",
+                        "profile:first_name": "Mareena",
+                        "og:type": "profile",
+                        "twitter:title": "Mareena Johnson - Advanced Practice Nurse - Atlantic Health System | LinkedIn",
+                        "al:ios:app_name": "LinkedIn",
+                        "og:title": "Mareena Johnson - Advanced Practice Nurse - Atlantic Health System | LinkedIn",
+                        "pagekey": "public_profile_v3_mobile",
+                        "al:android:url": "https://www.linkedin.com/in/mareena-johnson-22717027",
+                        "viewport": "width=device-width, initial-scale=1.0",
+                        "twitter:description": "FNP \u00b7 I am a Family Nurse Practitioner who is working as a nurse practitioner in a TBI unit with 22 years of critical care experience seeking employment as a Nurse Practitioner. \u00b7 Experience: Atlantic Health System \u00b7 Education: The College of New Rochelle \u00b7 Location: Andover \u00b7 55 connections on LinkedIn. View Mareena Johnson\u2019s profile on LinkedIn, a professional community of 1 billion members.",
+                        "ubba": "https://static.licdn.com/aero-v1/sc/h/4z28ov3akhnpdu4wp0jesv54h",
+                        "og:url": "https://www.linkedin.com/in/mareena-johnson-22717027",
+                        "al:android:app_name": "LinkedIn"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://media.licdn.com/dms/image/v2/D4E03AQEu7YUADXHlZA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1675199994147?e=2147483647&v=beta&t=yur2tJBObhxF4ajuJz6L_A-P9w0L6G8-YEPQgH5QgTk"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Prajakta Tandale - Pune, Maharashtra, India | Professional Profile ...",
+            "htmlTitle": "Prajakta Tandale - Pune, Maharashtra, <b>India</b> | Professional Profile ...",
+            "link": "https://in.linkedin.com/in/prajakta-tandale-717811290",
+            "displayLink": "in.linkedin.com",
+            "snippet": "... (Pharma-Biotechnology)|B.Sc Nursing|. BJ MEDICAL COLLEGE & SASSOON ... I did my graduation in Bsc nursing from B.J Medical and Sassoon General Hospital,Pune.",
+            "htmlSnippet": "... (<b>Pharma</b>-Biotechnology)|B.Sc <b>Nursing</b>|. BJ <b>MEDICAL</b> COLLEGE &amp; SASSOON ... I did my graduation in Bsc <b>nursing</b> from B.J <b>Medical</b> and Sassoon <b>General Hospital</b>,Pune.",
+            "formattedUrl": "https://in.linkedin.com/in/prajakta-tandale-717811290",
+            "htmlFormattedUrl": "https://in.linkedin.com/in/prajakta-tandale-717811290",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2fnUDnZ6-SdxhEm233BHntDxVAlfeF0HedNXj-H1mLTF_zjGw4Xk71TO4&s",
+                        "width": "200",
+                        "height": "200"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://media.licdn.com/dms/image/v2/D5603AQENqoJ6S-G5SQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1698932052923?e=2147483647&v=beta&t=Jj-augNJki_dCe9j0uLKZdAqhKvSUsN7DbGKOxj4dN4",
+                        "twitter:card": "summary",
+                        "linkedin:pagetag": "openToProvider",
+                        "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
+                        "al:android:package": "com.linkedin.android",
+                        "bingbot": "nocache",
+                        "locale": "en_US",
+                        "al:ios:url": "https://in.linkedin.com/in/prajakta-tandale-717811290",
+                        "og:description": "Student at Department of Sciences Savitribai Phule Pune University|PUMBA||MBA (Pharma-Biotechnology)|B.Sc Nursing| \u00b7 Currently I&#39;m pursuing MBA(Pharma-Biotechnology) from the Department of  Sciences Savitribai Phule Pune University (PUMBA). I did my graduation in Bsc nursing from B.J Medical and Sassoon General Hospital,Pune.I completed 6 months of internship at Sassoon General Hospital,Pune in addition to this I have served as a COVID vaccinator at Bajaj Finserv and an industrial  nurse at Maersk, contributing to doorstep health. \u00b7 Education: BJ MEDICAL COLLEGE &amp; SASSOON GENERAL HOSPITALS \u00b7 Location: 411001 \u00b7 500+ connections on LinkedIn. View Prajakta Tandale\u2019s profile on LinkedIn, a professional community of 1 billion members.",
+                        "al:ios:app_store_id": "288429040",
+                        "platform": "https://static.licdn.com/aero-v1/sc/h/cx1lliooyx2mt58pbjo4d4t6e",
+                        "twitter:image": "https://media.licdn.com/dms/image/v2/D5603AQENqoJ6S-G5SQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1698932052923?e=2147483647&v=beta&t=Jj-augNJki_dCe9j0uLKZdAqhKvSUsN7DbGKOxj4dN4",
+                        "profile:last_name": "Tandale",
+                        "twitter:site": "@Linkedin",
+                        "litmsprofilename": "public-profile-frontend",
+                        "profile:first_name": "Prajakta",
+                        "og:type": "profile",
+                        "twitter:title": "Prajakta Tandale - Pune, Maharashtra, India | Professional Profile | LinkedIn",
+                        "al:ios:app_name": "LinkedIn",
+                        "og:title": "Prajakta Tandale - Pune, Maharashtra, India | Professional Profile | LinkedIn",
+                        "pagekey": "public_profile_v3_mobile",
+                        "al:android:url": "https://in.linkedin.com/in/prajakta-tandale-717811290",
+                        "viewport": "width=device-width, initial-scale=1.0",
+                        "twitter:description": "Student at Department of Sciences Savitribai Phule Pune University|PUMBA||MBA (Pharma-Biotechnology)|B.Sc Nursing| \u00b7 Currently I&#39;m pursuing MBA(Pharma-Biotechnology) from the Department of  Sciences Savitribai Phule Pune University (PUMBA). I did my graduation in Bsc nursing from B.J Medical and Sassoon General Hospital,Pune.I completed 6 months of internship at Sassoon General Hospital,Pune in addition to this I have served as a COVID vaccinator at Bajaj Finserv and an industrial  nurse at Maersk, contributing to doorstep health. \u00b7 Education: BJ MEDICAL COLLEGE &amp; SASSOON GENERAL HOSPITALS \u00b7 Location: 411001 \u00b7 500+ connections on LinkedIn. View Prajakta Tandale\u2019s profile on LinkedIn, a professional community of 1 billion members.",
+                        "ubba": "https://static.licdn.com/aero-v1/sc/h/4z28ov3akhnpdu4wp0jesv54h",
+                        "og:url": "https://in.linkedin.com/in/prajakta-tandale-717811290",
+                        "al:android:app_name": "LinkedIn"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://media.licdn.com/dms/image/v2/D5603AQENqoJ6S-G5SQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1698932052923?e=2147483647&v=beta&t=Jj-augNJki_dCe9j0uLKZdAqhKvSUsN7DbGKOxj4dN4"
+                    }
+                ],
+                "Person": [
+                    {}
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Katie Pinsonat Chapman - Baton Rouge General Medical Center",
+            "htmlTitle": "Katie Pinsonat Chapman - Baton Rouge <b>General Medical</b> Center",
+            "link": "https://www.linkedin.com/in/kpchapmanrn",
+            "displayLink": "www.linkedin.com",
+            "snippet": "Education includes a Bachelor of Science in Environmental Science from the University of Louisiana at Lafayette and a Bachelor of Science in Nursing from\u00a0...",
+            "htmlSnippet": "Education includes a Bachelor of Science in Environmental Science from the University of Louisiana at Lafayette and a Bachelor of Science in <b>Nursing</b> from&nbsp;...",
+            "formattedUrl": "https://www.linkedin.com/in/kpchapmanrn",
+            "htmlFormattedUrl": "https://www.linkedin.com/in/kpchapmanrn",
             "pagemap": {
                 "cse_thumbnail": [
                     {
@@ -59,6 +469,9 @@
                         "width": "225",
                         "height": "225"
                     }
+                ],
+                "ProfilePage": [
+                    {}
                 ],
                 "metatags": [
                     {
@@ -69,25 +482,25 @@
                         "al:android:package": "com.linkedin.android",
                         "bingbot": "nocache",
                         "locale": "en_US",
-                        "al:ios:url": "https://in.linkedin.com/in/muskan-kashyap-480182275",
-                        "og:description": "Google Certified Business Intelligence &amp; Data Analyst | Python, SQL, R, Tableau, Power BI, Excel | Mathematician &amp; Researcher \u00b7 Numbers have always been my thing. I even earned a distinction in my Master&#39;s degree in Mathematics (with honors!). During my academic journey, I published two research papers in international journals, showcasing my ability to draw meaningful conclusions. As a result, I have over 2 years of experience as a Mathematics Tutor and 3 years of research experience. This journey taught me how to break down complex problems and explain them in a clear, concise way.\n\nBut numbers alone weren\u2019t enough - I craved the challenge of using them to understand how the world works. I see patterns everywhere. I love analyzing systems, asking \u201cwhy\u201d and getting deep into what most people overlook. That passion led me to earn Google\u2019s Professional Certificates in Data Analytics and Business Intelligence, and I\u2019ve been building ever since.\n\nIn just over a year of internships, freelan",
+                        "al:ios:url": "https://www.linkedin.com/in/kpchapmanrn",
+                        "og:description": "Project Manager at Louisiana Department of Health \u00b7 Currently working full-time as the Project Manager for the Louisiana Opioid Surveillance Initiative in the Office of Public Health, my interests include overdose surveillance and prevention, harm reduction, emergency nursing, and public health and public safety partnerships. I have a demonstrated history of working in the public health &amp; health care industries with skills in project management, conference planning, stakeholder engagement, and health informatics. Education includes a Bachelor of Science in Environmental Science from the University of Louisiana at Lafayette and a Bachelor of Science in Nursing from Southeastern Louisiana University. \u00b7 Experience: Baton Rouge General Medical Center \u00b7 Education: Southeastern Louisiana University \u00b7 Location: Baton Rouge \u00b7 341 connections on LinkedIn. View Katie Pinsonat Chapman\u2019s profile on LinkedIn, a professional community of 1 billion members.",
                         "al:ios:app_store_id": "288429040",
-                        "platform": "https://static.licdn.com/aero-v1/sc/h/cx1lliooyx2mt58pbjo4d4t6e",
+                        "platform": "https://static.licdn.com/aero-v1/sc/h/d024ltvhynt7j1oct8ctk47np",
                         "twitter:image": "https://static.licdn.com/aero-v1/sc/h/1c5u578iilxfi4m4dvc4q810q",
-                        "profile:last_name": "Kashyap",
+                        "profile:last_name": "Pinsonat Chapman",
                         "twitter:site": "@Linkedin",
                         "litmsprofilename": "public-profile-frontend",
-                        "profile:first_name": "Muskan",
+                        "profile:first_name": "Katie",
                         "og:type": "profile",
-                        "twitter:title": "Muskan Kashyap - Data Analyst/Scientist - Freelance | LinkedIn",
+                        "twitter:title": "Katie Pinsonat Chapman - Registered Nurse - Baton Rouge General Medical Center | LinkedIn",
                         "al:ios:app_name": "LinkedIn",
-                        "og:title": "Muskan Kashyap - Data Analyst/Scientist - Freelance | LinkedIn",
+                        "og:title": "Katie Pinsonat Chapman - Registered Nurse - Baton Rouge General Medical Center | LinkedIn",
                         "pagekey": "public_profile_v3_mobile",
-                        "al:android:url": "https://in.linkedin.com/in/muskan-kashyap-480182275",
+                        "al:android:url": "https://www.linkedin.com/in/kpchapmanrn",
                         "viewport": "width=device-width, initial-scale=1.0",
-                        "twitter:description": "Google Certified Business Intelligence &amp; Data Analyst | Python, SQL, R, Tableau, Power BI, Excel | Mathematician &amp; Researcher \u00b7 Numbers have always been my thing. I even earned a distinction in my Master&#39;s degree in Mathematics (with honors!). During my academic journey, I published two research papers in international journals, showcasing my ability to draw meaningful conclusions. As a result, I have over 2 years of experience as a Mathematics Tutor and 3 years of research experience. This journey taught me how to break down complex problems and explain them in a clear, concise way.\n\nBut numbers alone weren\u2019t enough - I craved the challenge of using them to understand how the world works. I see patterns everywhere. I love analyzing systems, asking \u201cwhy\u201d and getting deep into what most people overlook. That passion led me to earn Google\u2019s Professional Certificates in Data Analytics and Business Intelligence, and I\u2019ve been building ever since.\n\nIn just over a year of internships, freelan",
-                        "ubba": "https://static.licdn.com/aero-v1/sc/h/4z28ov3akhnpdu4wp0jesv54h",
-                        "og:url": "https://in.linkedin.com/in/muskan-kashyap-480182275",
+                        "twitter:description": "Project Manager at Louisiana Department of Health \u00b7 Currently working full-time as the Project Manager for the Louisiana Opioid Surveillance Initiative in the Office of Public Health, my interests include overdose surveillance and prevention, harm reduction, emergency nursing, and public health and public safety partnerships. I have a demonstrated history of working in the public health &amp; health care industries with skills in project management, conference planning, stakeholder engagement, and health informatics. Education includes a Bachelor of Science in Environmental Science from the University of Louisiana at Lafayette and a Bachelor of Science in Nursing from Southeastern Louisiana University. \u00b7 Experience: Baton Rouge General Medical Center \u00b7 Education: Southeastern Louisiana University \u00b7 Location: Baton Rouge \u00b7 341 connections on LinkedIn. View Katie Pinsonat Chapman\u2019s profile on LinkedIn, a professional community of 1 billion members.",
+                        "ubba": "https://static.licdn.com/aero-v1/sc/h/ev3rrqp7pxz92prstldrycla5",
+                        "og:url": "https://www.linkedin.com/in/kpchapmanrn",
                         "al:android:app_name": "LinkedIn"
                     }
                 ],
@@ -95,26 +508,23 @@
                     {
                         "src": "https://static.licdn.com/aero-v1/sc/h/1c5u578iilxfi4m4dvc4q810q"
                     }
-                ],
-                "Person": [
-                    {}
                 ]
             }
         },
         {
             "kind": "customsearch#result",
-            "title": "Abhishek Mishra - Data Analyst - Air India Limited | LinkedIn",
-            "htmlTitle": "Abhishek Mishra - <b>Data Analyst</b> - Air <b>India</b> Limited | LinkedIn",
-            "link": "https://in.linkedin.com/in/abhishek-mishra-820494142",
-            "displayLink": "in.linkedin.com",
-            "snippet": "Data Analyst at Air India \u00b7 Detail-focused Data Analyst with overall 8 years of experience having 4 years of rich experience in developing innovative\u00a0...",
-            "htmlSnippet": "<b>Data Analyst</b> at Air <b>India</b> \u00b7 Detail-focused <b>Data Analyst</b> with overall 8 years of experience having 4 years of rich experience in developing innovative&nbsp;...",
-            "formattedUrl": "https://in.linkedin.com/in/abhishek-mishra-820494142",
-            "htmlFormattedUrl": "https://in.linkedin.com/in/abhishek-mishra-820494142",
+            "title": "Dr. Naveen Parmar - Training and development Manager at ...",
+            "htmlTitle": "Dr. Naveen Parmar - Training and development Manager at ...",
+            "link": "https://ca.linkedin.com/in/dr-naveen-parmar-38905891",
+            "displayLink": "ca.linkedin.com",
+            "snippet": "Medical affairs professional | Google Ads Trainer | Pharmaceutical sales trainer |Medico-Marketing | Mental health app co-founder | Directed and wrote India's\u00a0...",
+            "htmlSnippet": "<b>Medical</b> affairs professional | Google Ads Trainer | <b>Pharmaceutical</b> sales trainer |Medico-Marketing | Mental health app co-founder | Directed and wrote <b>India&#39;s</b>&nbsp;...",
+            "formattedUrl": "https://ca.linkedin.com/in/dr-naveen-parmar-38905891",
+            "htmlFormattedUrl": "https://ca.linkedin.com/in/dr-naveen-parmar-38905891",
             "pagemap": {
                 "cse_thumbnail": [
                     {
-                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_-rpulq5kT2q_yWb7TVKsDm7gGbj7wzZH4NaCHohPsrBSzqDoU1a4FRU&s",
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRXxZjXjx9rUOIgwECRi9BuEkrotJtzfEXcgJUEgnV96cAcOyx1Zfbz_TM&s",
                         "width": "200",
                         "height": "200"
                     }
@@ -124,511 +534,95 @@
                 ],
                 "metatags": [
                     {
-                        "og:image": "https://media.licdn.com/dms/image/v2/C5103AQGn-OQQoBtD0w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1533986681794?e=2147483647&v=beta&t=itrkPLoQpegUzmzeZhfOIerdQW8kystlnREYZ1GosLY",
+                        "og:image": "https://media.licdn.com/dms/image/v2/D5603AQF4CORUeopbPw/profile-displayphoto-shrink_200_200/B56ZUppxprGUAc-/0/1740160572822?e=2147483647&v=beta&t=Bt9X-owC4Uk4VSWtybLTCk5mSLmx1u2St3XRDreE964",
                         "twitter:card": "summary",
                         "linkedin:pagetag": "openToProvider",
                         "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
                         "al:android:package": "com.linkedin.android",
                         "bingbot": "nocache",
                         "locale": "en_US",
-                        "al:ios:url": "https://in.linkedin.com/in/abhishek-mishra-820494142",
-                        "og:description": "Data Analyst at Air India \u00b7 Detail-focused Data Analyst with overall 8 years of experience having 4 years of rich experience in developing innovative solutions to organizational problems. Proven track record of analyzing huge volumes of data to gain business insights using Python, Excel , Power BI. \u00b7 Experience: Air India Limited \u00b7 Education: Bengal Institute of Business Studies \u00b7 Location: Delhi \u00b7 348 connections on LinkedIn. View Abhishek Mishra\u2019s profile on LinkedIn, a professional community of 1 billion members.",
+                        "al:ios:url": "https://ca.linkedin.com/in/dr-naveen-parmar-38905891",
+                        "og:description": "Medical affairs professional | Google Ads Trainer | Pharmaceutical sales trainer |Medico-Marketing | Mental health app co-founder | Directed and wrote India&#39;s first prostate cancer consensus statement paper. \u00b7 Qualified clinical pharmacotherapist &amp; board certified medical affairs specialist with over 5 years of experience as a medical advisor in pharmaceutical industry. Provided accurate, balanced drug information and served as a subject matter expert for a variety of \rtherapies with extensive experience in clinical research, publication, data analysis, and liaising with over 700 health care professionals. Along with providing training to 1000+ sales representatives; developed medical strategy, supported marketing activities, assessed 100+ pipeline products to expand company\u2019s portfolio and launched 15+ molecules in domestic market. \u00b7 Experience: Google \u00b7 Education: Rajiv Gandhi University of Health Sciences \u00b7 Location: Toronto \u00b7 500+ connections on LinkedIn. View Dr. Naveen Parmar\u2019s profile ",
                         "al:ios:app_store_id": "288429040",
                         "platform": "https://static.licdn.com/aero-v1/sc/h/cx1lliooyx2mt58pbjo4d4t6e",
-                        "twitter:image": "https://media.licdn.com/dms/image/v2/C5103AQGn-OQQoBtD0w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1533986681794?e=2147483647&v=beta&t=itrkPLoQpegUzmzeZhfOIerdQW8kystlnREYZ1GosLY",
-                        "profile:last_name": "Mishra",
+                        "twitter:image": "https://media.licdn.com/dms/image/v2/D5603AQF4CORUeopbPw/profile-displayphoto-shrink_200_200/B56ZUppxprGUAc-/0/1740160572822?e=2147483647&v=beta&t=Bt9X-owC4Uk4VSWtybLTCk5mSLmx1u2St3XRDreE964",
+                        "profile:last_name": "Parmar",
                         "twitter:site": "@Linkedin",
                         "litmsprofilename": "public-profile-frontend",
-                        "profile:first_name": "Abhishek",
+                        "profile:first_name": "Dr. Naveen",
                         "og:type": "profile",
-                        "twitter:title": "Abhishek Mishra - Data Analyst - Air India Limited | LinkedIn",
+                        "twitter:title": "Dr. Naveen Parmar - Training and development Manager at teleperformance supporting Google - Google | LinkedIn",
                         "al:ios:app_name": "LinkedIn",
-                        "og:title": "Abhishek Mishra - Data Analyst - Air India Limited | LinkedIn",
+                        "og:title": "Dr. Naveen Parmar - Training and development Manager at teleperformance supporting Google - Google | LinkedIn",
                         "pagekey": "public_profile_v3_mobile",
-                        "al:android:url": "https://in.linkedin.com/in/abhishek-mishra-820494142",
+                        "al:android:url": "https://ca.linkedin.com/in/dr-naveen-parmar-38905891",
                         "viewport": "width=device-width, initial-scale=1.0",
-                        "twitter:description": "Data Analyst at Air India \u00b7 Detail-focused Data Analyst with overall 8 years of experience having 4 years of rich experience in developing innovative solutions to organizational problems. Proven track record of analyzing huge volumes of data to gain business insights using Python, Excel , Power BI. \u00b7 Experience: Air India Limited \u00b7 Education: Bengal Institute of Business Studies \u00b7 Location: Delhi \u00b7 348 connections on LinkedIn. View Abhishek Mishra\u2019s profile on LinkedIn, a professional community of 1 billion members.",
+                        "twitter:description": "Medical affairs professional | Google Ads Trainer | Pharmaceutical sales trainer |Medico-Marketing | Mental health app co-founder | Directed and wrote India&#39;s first prostate cancer consensus statement paper. \u00b7 Qualified clinical pharmacotherapist &amp; board certified medical affairs specialist with over 5 years of experience as a medical advisor in pharmaceutical industry. Provided accurate, balanced drug information and served as a subject matter expert for a variety of \rtherapies with extensive experience in clinical research, publication, data analysis, and liaising with over 700 health care professionals. Along with providing training to 1000+ sales representatives; developed medical strategy, supported marketing activities, assessed 100+ pipeline products to expand company\u2019s portfolio and launched 15+ molecules in domestic market. \u00b7 Experience: Google \u00b7 Education: Rajiv Gandhi University of Health Sciences \u00b7 Location: Toronto \u00b7 500+ connections on LinkedIn. View Dr. Naveen Parmar\u2019s profile ",
                         "ubba": "https://static.licdn.com/aero-v1/sc/h/4z28ov3akhnpdu4wp0jesv54h",
-                        "og:url": "https://in.linkedin.com/in/abhishek-mishra-820494142",
+                        "og:url": "https://ca.linkedin.com/in/dr-naveen-parmar-38905891",
                         "al:android:app_name": "LinkedIn"
                     }
                 ],
                 "cse_image": [
                     {
-                        "src": "https://media.licdn.com/dms/image/v2/C5103AQGn-OQQoBtD0w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1533986681794?e=2147483647&v=beta&t=itrkPLoQpegUzmzeZhfOIerdQW8kystlnREYZ1GosLY"
+                        "src": "https://media.licdn.com/dms/image/v2/D5603AQF4CORUeopbPw/profile-displayphoto-shrink_200_200/B56ZUppxprGUAc-/0/1740160572822?e=2147483647&v=beta&t=Bt9X-owC4Uk4VSWtybLTCk5mSLmx1u2St3XRDreE964"
                     }
                 ]
             }
         },
         {
             "kind": "customsearch#result",
-            "title": "Devraj Raut - BCCI | LinkedIn",
-            "htmlTitle": "Devraj Raut - BCCI | LinkedIn",
-            "link": "https://in.linkedin.com/in/devrajraut",
+            "title": "Surekha Kadam - BJ MEDICAL COLLEGE & SASSOON GENERAL ...",
+            "htmlTitle": "Surekha Kadam - BJ <b>MEDICAL</b> COLLEGE &amp; SASSOON <b>GENERAL</b> ...",
+            "link": "https://in.linkedin.com/in/surekha-kadam-59a13b126",
             "displayLink": "in.linkedin.com",
-            "snippet": "Devraj Raut. BCCI Thakur Institute of Management Studies Career Development and Research. Mumbai, Maharashtra, India ... Data Science R Basics \u00b7 DataCamp. Issued\u00a0...",
-            "htmlSnippet": "Devraj Raut. BCCI Thakur Institute of Management Studies Career Development and Research. Mumbai, Maharashtra, <b>India</b> ... <b>Data</b> Science R Basics &middot; DataCamp. Issued&nbsp;...",
-            "formattedUrl": "https://in.linkedin.com/in/devrajraut",
-            "htmlFormattedUrl": "https://in.linkedin.com/in/devrajraut",
+            "snippet": "Chief Nursing Services || Lean Six Sigma Green Belt \u00b7 Experience: Sahyadri Hospitals \u00b7 Education: BJ MEDICAL COLLEGE & SASSOON GENERAL HOSPITALS \u00b7 Location:\u00a0...",
+            "htmlSnippet": "Chief <b>Nursing</b> Services || Lean Six Sigma Green Belt \u00b7 Experience: Sahyadri Hospitals \u00b7 Education: BJ <b>MEDICAL</b> COLLEGE &amp; SASSOON <b>GENERAL</b> HOSPITALS \u00b7 Location:&nbsp;...",
+            "formattedUrl": "https://in.linkedin.com/in/surekha-kadam-59a13b126",
+            "htmlFormattedUrl": "https://in.linkedin.com/in/surekha-kadam-59a13b126",
             "pagemap": {
                 "cse_thumbnail": [
                     {
-                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhOBSmAEeUY8Z0ZV5H8VjxhkUZ5JqgnDNTJfIrQv6o2RrTvnbW9rZnLp4&s",
-                        "width": "200",
-                        "height": "200"
-                    }
-                ],
-                "ProfilePage": [
-                    {}
-                ],
-                "metatags": [
-                    {
-                        "og:image": "https://media.licdn.com/dms/image/v2/D4D03AQHAywt591zUuQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1721662453527?e=2147483647&v=beta&t=JGMp-Ywlh6lVJAq7lPjMPt2wASzxcXY0vbSXSHlyddY",
-                        "twitter:card": "summary",
-                        "linkedin:pagetag": "openToProvider",
-                        "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
-                        "al:android:package": "com.linkedin.android",
-                        "bingbot": "nocache",
-                        "locale": "en_US",
-                        "al:ios:url": "https://in.linkedin.com/in/devrajraut",
-                        "og:description": "Master of Computer Applications and a Cricketer till the U-19 West Zone Level.\n\nI\u2026 \u00b7 Experience: BCCI \u00b7 Education: Thakur Institute of Management Studies Career Development and Research \u00b7 Location: Mumbai \u00b7 464 connections on LinkedIn. View Devraj Raut\u2019s profile on LinkedIn, a professional community of 1 billion members.",
-                        "al:ios:app_store_id": "288429040",
-                        "platform": "https://static.licdn.com/aero-v1/sc/h/cx1lliooyx2mt58pbjo4d4t6e",
-                        "twitter:image": "https://media.licdn.com/dms/image/v2/D4D03AQHAywt591zUuQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1721662453527?e=2147483647&v=beta&t=JGMp-Ywlh6lVJAq7lPjMPt2wASzxcXY0vbSXSHlyddY",
-                        "profile:last_name": "Raut",
-                        "twitter:site": "@Linkedin",
-                        "litmsprofilename": "public-profile-frontend",
-                        "profile:first_name": "Devraj",
-                        "og:type": "profile",
-                        "twitter:title": "Devraj Raut - BCCI | LinkedIn",
-                        "al:ios:app_name": "LinkedIn",
-                        "og:title": "Devraj Raut - BCCI | LinkedIn",
-                        "pagekey": "public_profile_v3_mobile",
-                        "al:android:url": "https://in.linkedin.com/in/devrajraut",
-                        "viewport": "width=device-width, initial-scale=1.0",
-                        "twitter:description": "Master of Computer Applications and a Cricketer till the U-19 West Zone Level.\n\nI\u2026 \u00b7 Experience: BCCI \u00b7 Education: Thakur Institute of Management Studies Career Development and Research \u00b7 Location: Mumbai \u00b7 464 connections on LinkedIn. View Devraj Raut\u2019s profile on LinkedIn, a professional community of 1 billion members.",
-                        "ubba": "https://static.licdn.com/aero-v1/sc/h/4z28ov3akhnpdu4wp0jesv54h",
-                        "og:url": "https://in.linkedin.com/in/devrajraut",
-                        "al:android:app_name": "LinkedIn"
-                    }
-                ],
-                "cse_image": [
-                    {
-                        "src": "https://media.licdn.com/dms/image/v2/D4D03AQHAywt591zUuQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1721662453527?e=2147483647&v=beta&t=JGMp-Ywlh6lVJAq7lPjMPt2wASzxcXY0vbSXSHlyddY"
-                    }
-                ]
-            }
-        },
-        {
-            "kind": "customsearch#result",
-            "title": "Mohit Maheshwari - Consumer Data Analyst - Acadia | LinkedIn",
-            "htmlTitle": "Mohit Maheshwari - Consumer <b>Data Analyst</b> - Acadia | LinkedIn",
-            "link": "https://www.linkedin.com/in/mohitmaheshwari2606/",
-            "displayLink": "www.linkedin.com",
-            "snippet": "Data Analytics Intern. Paddling Foundation. Jul 2021 - Dec 2021 6 months. Mumbai, Maharashtra, India. \u2022 Built Tableau dashboard to visualize core operations\u00a0...",
-            "htmlSnippet": "<b>Data Analytics</b> Intern. Paddling Foundation. Jul 2021 - Dec 2021 6 months. Mumbai, Maharashtra, <b>India</b>. \u2022 Built Tableau dashboard to visualize core operations&nbsp;...",
-            "formattedUrl": "https://www.linkedin.com/in/mohitmaheshwari2606/",
-            "htmlFormattedUrl": "https://www.linkedin.com/in/mohitmaheshwari2606/",
-            "pagemap": {
-                "cse_thumbnail": [
-                    {
-                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD12GppHFd_QfDzCQ-fI_HeiDu5yXacsDH05NzABclOHuDNlEetpjUhKwb&s",
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd8sJtJbK5vg_bt7CBJ86-M8AdHLgozRo-Qlyqmc6xTFMMxPwPeKOkBKg&s",
                         "width": "200",
                         "height": "200"
                     }
                 ],
                 "metatags": [
                     {
-                        "og:image": "https://media.licdn.com/dms/image/v2/D5603AQGZRoxAIzEL6w/profile-displayphoto-shrink_200_200/B56ZXC_ab.HQAY-/0/1742733158630?e=2147483647&v=beta&t=BnRgtr-tdOsHeCjuWCdv0UjnvC1PObPeujJiERqUw5I",
+                        "og:image": "https://media.licdn.com/dms/image/v2/C5103AQHF8PaugvaPFQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517486563275?e=2147483647&v=beta&t=hEpqWDtGQGVrG3GTYB1zg71TeNUP3rZNodtcDopgPCc",
                         "twitter:card": "summary",
                         "linkedin:pagetag": "openToProvider",
                         "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
                         "al:android:package": "com.linkedin.android",
                         "bingbot": "nocache",
                         "locale": "en_US",
-                        "al:ios:url": "https://in.linkedin.com/in/mohitmaheshwari2606",
-                        "og:description": "Customer &amp; Media Analytics @ Acadia | Snowflake + ThoughtSpot \u00b7 I\u2019m Mohit, an analytics professional who\u2019s passionate about combining data and human insight to drive real impact. I have hands-on experience working with 1P and 3P data across diverse areas such as customer behavior, marketing performance, CRM, and Google Analytics.\n\nMy work has involved helping retail brands enhance customer acquisition and retention through data-driven strategies. I specialize in designing and measuring marketing tests, developing insightful dashboards in ThoughtSpot and Tableau, and leveraging Snowflake for scalable data solutions. I also focus on data-driven segmentation, profiling, and persona creation to optimize targeted strategies and maximize impact. For me, data is more than numbers; it\u2019s about telling stories and making a difference.\n\nBeyond the numbers, I love playing chess and snooker, diving into a good book, or catching up on the latest sports matches.\n\n\ud83d\udce7: mohitmaheshwari2606@gmail.com \u00b7 Experience:",
-                        "al:ios:app_store_id": "288429040",
-                        "platform": "https://static.licdn.com/aero-v1/sc/h/cx1lliooyx2mt58pbjo4d4t6e",
-                        "twitter:image": "https://media.licdn.com/dms/image/v2/D5603AQGZRoxAIzEL6w/profile-displayphoto-shrink_200_200/B56ZXC_ab.HQAY-/0/1742733158630?e=2147483647&v=beta&t=BnRgtr-tdOsHeCjuWCdv0UjnvC1PObPeujJiERqUw5I",
-                        "profile:last_name": "Maheshwari",
-                        "twitter:site": "@Linkedin",
-                        "litmsprofilename": "public-profile-frontend",
-                        "profile:first_name": "Mohit",
-                        "og:type": "profile",
-                        "twitter:title": "Mohit Maheshwari - Consumer Data Analyst - Acadia | LinkedIn",
-                        "al:ios:app_name": "LinkedIn",
-                        "og:title": "Mohit Maheshwari - Consumer Data Analyst - Acadia | LinkedIn",
-                        "pagekey": "public_profile_v3_mobile",
-                        "al:android:url": "https://in.linkedin.com/in/mohitmaheshwari2606",
-                        "viewport": "width=device-width, initial-scale=1.0",
-                        "twitter:description": "Customer &amp; Media Analytics @ Acadia | Snowflake + ThoughtSpot \u00b7 I\u2019m Mohit, an analytics professional who\u2019s passionate about combining data and human insight to drive real impact. I have hands-on experience working with 1P and 3P data across diverse areas such as customer behavior, marketing performance, CRM, and Google Analytics.\n\nMy work has involved helping retail brands enhance customer acquisition and retention through data-driven strategies. I specialize in designing and measuring marketing tests, developing insightful dashboards in ThoughtSpot and Tableau, and leveraging Snowflake for scalable data solutions. I also focus on data-driven segmentation, profiling, and persona creation to optimize targeted strategies and maximize impact. For me, data is more than numbers; it\u2019s about telling stories and making a difference.\n\nBeyond the numbers, I love playing chess and snooker, diving into a good book, or catching up on the latest sports matches.\n\n\ud83d\udce7: mohitmaheshwari2606@gmail.com \u00b7 Experience:",
-                        "ubba": "https://static.licdn.com/aero-v1/sc/h/4z28ov3akhnpdu4wp0jesv54h",
-                        "og:url": "https://in.linkedin.com/in/mohitmaheshwari2606",
-                        "al:android:app_name": "LinkedIn"
-                    }
-                ],
-                "cse_image": [
-                    {
-                        "src": "https://media.licdn.com/dms/image/v2/D5603AQGZRoxAIzEL6w/profile-displayphoto-shrink_200_200/B56ZXC_ab.HQAY-/0/1742733158630?e=2147483647&v=beta&t=BnRgtr-tdOsHeCjuWCdv0UjnvC1PObPeujJiERqUw5I"
-                    }
-                ],
-                "Person": [
-                    {}
-                ]
-            }
-        },
-        {
-            "kind": "customsearch#result",
-            "title": "Shubham Batra - Lead Data Analyst - IndiGo (InterGlobe Aviation ...",
-            "htmlTitle": "Shubham Batra - Lead <b>Data Analyst</b> - IndiGo (InterGlobe Aviation ...",
-            "link": "https://in.linkedin.com/in/shubham-batra-6a95a7144",
-            "displayLink": "in.linkedin.com",
-            "snippet": "Lead Data Analyst at IndiGo Airlines | Microsoft Power BI PL ... Delhi, India. 3K followers 500+ connections. See your mutual connections. View\u00a0...",
-            "htmlSnippet": "Lead <b>Data Analyst</b> at IndiGo Airlines | Microsoft Power BI PL ... Delhi, <b>India</b>. 3K followers 500+ connections. See your mutual connections. View&nbsp;...",
-            "formattedUrl": "https://in.linkedin.com/in/shubham-batra-6a95a7144",
-            "htmlFormattedUrl": "https://in.linkedin.com/in/shubham-batra-6a95a7144",
-            "pagemap": {
-                "cse_thumbnail": [
-                    {
-                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVwHJF3RLo1a2rDNKfNrjEwLUiKx6Q_iryXd98GzPwXe_uYAe3BNR07ODY&s",
-                        "width": "200",
-                        "height": "200"
-                    }
-                ],
-                "metatags": [
-                    {
-                        "og:image": "https://media.licdn.com/dms/image/v2/D4D03AQE7G4zSB0lrbg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1670066836336?e=2147483647&v=beta&t=RLiLS2jAp6mkxNvdU82GYHKtQe4YOBSPEPamIOmlRdU",
-                        "twitter:card": "summary",
-                        "linkedin:pagetag": "openToProvider",
-                        "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
-                        "al:android:package": "com.linkedin.android",
-                        "bingbot": "nocache",
-                        "locale": "en_US",
-                        "al:ios:url": "https://in.linkedin.com/in/shubham-batra-6a95a7144",
-                        "og:description": "Lead Data Analyst at IndiGo Airlines | Microsoft Power BI PL-300 Certified | Google Data Analytics certificate holder \u00b7 I\u2019m working as a Lead Data analyst in IndiGo Airlines in which I have performed deep dive data analysis of company\u2019s Navitaire Passenger service system (PSS) data  to provide important insights to the stakeholders (CXO level leadership and other various departments) using analytical tools such as Microsoft Power BI, Microsoft SQL server, Microsoft Excel and data extraction/automated report generation by designing ETL pipelines using MS-Visual studio (SSIS) and SSRS for analysing significant trends. Apart from data analysis, I am currently learning cloud infrastructure services such as snowflake data ingestion, ADF and SQL MI etc.\n\nI&#39;m also leading a team of 20+ like minded Data analysts and Data professionals.\n\nData analysis Major Projects:\n\n1. Data analysis using SQL: Catered the business stakeholders with effective insights from company&#39;s Passenger service system data in the f",
+                        "al:ios:url": "https://in.linkedin.com/in/surekha-kadam-59a13b126",
+                        "og:description": "Chief Nursing Services || Lean Six Sigma Green  Belt \u00b7 Experience: Sahyadri Hospitals \u00b7 Education: BJ MEDICAL COLLEGE &amp; SASSOON GENERAL HOSPITALS \u00b7 Location: Pune \u00b7 500+ connections on LinkedIn. View Surekha Kadam\u2019s profile on LinkedIn, a professional community of 1 billion members.",
                         "al:ios:app_store_id": "288429040",
                         "platform": "https://static.licdn.com/aero-v1/sc/h/d024ltvhynt7j1oct8ctk47np",
-                        "twitter:image": "https://media.licdn.com/dms/image/v2/D4D03AQE7G4zSB0lrbg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1670066836336?e=2147483647&v=beta&t=RLiLS2jAp6mkxNvdU82GYHKtQe4YOBSPEPamIOmlRdU",
-                        "profile:last_name": "Batra",
+                        "twitter:image": "https://media.licdn.com/dms/image/v2/C5103AQHF8PaugvaPFQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517486563275?e=2147483647&v=beta&t=hEpqWDtGQGVrG3GTYB1zg71TeNUP3rZNodtcDopgPCc",
+                        "profile:last_name": "Kadam",
                         "twitter:site": "@Linkedin",
                         "litmsprofilename": "public-profile-frontend",
-                        "profile:first_name": "Shubham",
+                        "profile:first_name": "Surekha",
                         "og:type": "profile",
-                        "twitter:title": "Shubham Batra - Lead Data Analyst - IndiGo (InterGlobe Aviation Ltd) | LinkedIn",
+                        "twitter:title": "Surekha Kadam - BJ MEDICAL COLLEGE &amp; SASSOON GENERAL HOSPITALS - Pune, Maharashtra, India | LinkedIn",
                         "al:ios:app_name": "LinkedIn",
-                        "og:title": "Shubham Batra - Lead Data Analyst - IndiGo (InterGlobe Aviation Ltd) | LinkedIn",
+                        "og:title": "Surekha Kadam - BJ MEDICAL COLLEGE &amp; SASSOON GENERAL HOSPITALS - Pune, Maharashtra, India | LinkedIn",
                         "pagekey": "public_profile_v3_mobile",
-                        "al:android:url": "https://in.linkedin.com/in/shubham-batra-6a95a7144",
+                        "al:android:url": "https://in.linkedin.com/in/surekha-kadam-59a13b126",
                         "viewport": "width=device-width, initial-scale=1.0",
-                        "twitter:description": "Lead Data Analyst at IndiGo Airlines | Microsoft Power BI PL-300 Certified | Google Data Analytics certificate holder \u00b7 I\u2019m working as a Lead Data analyst in IndiGo Airlines in which I have performed deep dive data analysis of company\u2019s Navitaire Passenger service system (PSS) data  to provide important insights to the stakeholders (CXO level leadership and other various departments) using analytical tools such as Microsoft Power BI, Microsoft SQL server, Microsoft Excel and data extraction/automated report generation by designing ETL pipelines using MS-Visual studio (SSIS) and SSRS for analysing significant trends. Apart from data analysis, I am currently learning cloud infrastructure services such as snowflake data ingestion, ADF and SQL MI etc.\n\nI&#39;m also leading a team of 20+ like minded Data analysts and Data professionals.\n\nData analysis Major Projects:\n\n1. Data analysis using SQL: Catered the business stakeholders with effective insights from company&#39;s Passenger service system data in the f",
+                        "twitter:description": "Chief Nursing Services || Lean Six Sigma Green  Belt \u00b7 Experience: Sahyadri Hospitals \u00b7 Education: BJ MEDICAL COLLEGE &amp; SASSOON GENERAL HOSPITALS \u00b7 Location: Pune \u00b7 500+ connections on LinkedIn. View Surekha Kadam\u2019s profile on LinkedIn, a professional community of 1 billion members.",
                         "ubba": "https://static.licdn.com/aero-v1/sc/h/ev3rrqp7pxz92prstldrycla5",
-                        "og:url": "https://in.linkedin.com/in/shubham-batra-6a95a7144",
+                        "og:url": "https://in.linkedin.com/in/surekha-kadam-59a13b126",
                         "al:android:app_name": "LinkedIn"
                     }
                 ],
                 "cse_image": [
                     {
-                        "src": "https://media.licdn.com/dms/image/v2/D4D03AQE7G4zSB0lrbg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1670066836336?e=2147483647&v=beta&t=RLiLS2jAp6mkxNvdU82GYHKtQe4YOBSPEPamIOmlRdU"
+                        "src": "https://media.licdn.com/dms/image/v2/C5103AQHF8PaugvaPFQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517486563275?e=2147483647&v=beta&t=hEpqWDtGQGVrG3GTYB1zg71TeNUP3rZNodtcDopgPCc"
                     }
-                ],
-                "Person": [
-                    {}
-                ]
-            }
-        },
-        {
-            "kind": "customsearch#result",
-            "title": "Piyush Kumar Goyal - Data Analyst - Renault Nissan Technology ...",
-            "htmlTitle": "Piyush Kumar Goyal - <b>Data Analyst</b> - Renault Nissan Technology ...",
-            "link": "https://in.linkedin.com/in/pg100x",
-            "displayLink": "in.linkedin.com",
-            "snippet": "2x LinkedIn Top Voice - Business Intelligence, Data Analytics | Data Analyst - Renault Nissan Tech (RNTBCI) | Ex - Amazon, Teleperformance, Concentrix,\u00a0...",
-            "htmlSnippet": "2x LinkedIn Top Voice - Business Intelligence, <b>Data Analytics</b> | <b>Data Analyst</b> - Renault Nissan Tech (RNTBCI) | Ex - Amazon, Teleperformance, Concentrix,&nbsp;...",
-            "formattedUrl": "https://in.linkedin.com/in/pg100x",
-            "htmlFormattedUrl": "https://in.linkedin.com/in/pg100x",
-            "pagemap": {
-                "cse_thumbnail": [
-                    {
-                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQid97IE45Lfaf7KeHYRtneAd7wrF_MDDn8KMmsGKblaXIDgURCe1pTDBU&s",
-                        "width": "200",
-                        "height": "200"
-                    }
-                ],
-                "ProfilePage": [
-                    {}
-                ],
-                "metatags": [
-                    {
-                        "og:image": "https://media.licdn.com/dms/image/v2/D5603AQFM5mOe3JBJ_Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1719430541584?e=2147483647&v=beta&t=vSBVhPWc40_Zo9tqMxcG2dLvtCnvB5o0wHoBfNawA34",
-                        "twitter:card": "summary",
-                        "linkedin:pagetag": "openToProvider",
-                        "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
-                        "al:android:package": "com.linkedin.android",
-                        "bingbot": "nocache",
-                        "locale": "en_US",
-                        "al:ios:url": "https://in.linkedin.com/in/pg100x",
-                        "og:description": "2x LinkedIn Top Voice - Business Intelligence, Data Analytics | Data Analyst - Renault Nissan Tech (RNTBCI) | Ex - Amazon, Teleperformance, Concentrix, Hyatt \u00b7 With a track record of an entrepreneurial journey, I&#39;ve steered and expanded different ventures, adept at strategic insight, agile leadership, and fostering high-performance teams, which taught me excellence in identifying opportunities.\n\nOne standout achievement:\n* Was featured in The Telegraph twice, showcasing my entrepreneurial ideas and startups in various business and entrepreneurship challenges.\n* Received an On-the-Spot Nomination Award as the Youngest Competitor, recognized for bringing innovative solutions, underscoring my results-driven approach. My commitment to data-driven decision-making ensures astute choices for sustainable growth.\n\nLet&#39;s connect to delve into entrepreneurship, data analytics, and explore potential synergies in our ever-evolving business sphere. I would love to learn more and continue to satisfy my insatiable a",
-                        "al:ios:app_store_id": "288429040",
-                        "platform": "https://static.licdn.com/aero-v1/sc/h/d024ltvhynt7j1oct8ctk47np",
-                        "twitter:image": "https://media.licdn.com/dms/image/v2/D5603AQFM5mOe3JBJ_Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1719430541584?e=2147483647&v=beta&t=vSBVhPWc40_Zo9tqMxcG2dLvtCnvB5o0wHoBfNawA34",
-                        "profile:last_name": "Goyal",
-                        "twitter:site": "@Linkedin",
-                        "litmsprofilename": "public-profile-frontend",
-                        "profile:first_name": "Piyush Kumar",
-                        "og:type": "profile",
-                        "twitter:title": "Piyush Kumar Goyal - Data Analyst - Renault Nissan Technology &amp; Business Centre India | LinkedIn",
-                        "al:ios:app_name": "LinkedIn",
-                        "og:title": "Piyush Kumar Goyal - Data Analyst - Renault Nissan Technology &amp; Business Centre India | LinkedIn",
-                        "pagekey": "public_profile_v3_mobile",
-                        "al:android:url": "https://in.linkedin.com/in/pg100x",
-                        "viewport": "width=device-width, initial-scale=1.0",
-                        "twitter:description": "2x LinkedIn Top Voice - Business Intelligence, Data Analytics | Data Analyst - Renault Nissan Tech (RNTBCI) | Ex - Amazon, Teleperformance, Concentrix, Hyatt \u00b7 With a track record of an entrepreneurial journey, I&#39;ve steered and expanded different ventures, adept at strategic insight, agile leadership, and fostering high-performance teams, which taught me excellence in identifying opportunities.\n\nOne standout achievement:\n* Was featured in The Telegraph twice, showcasing my entrepreneurial ideas and startups in various business and entrepreneurship challenges.\n* Received an On-the-Spot Nomination Award as the Youngest Competitor, recognized for bringing innovative solutions, underscoring my results-driven approach. My commitment to data-driven decision-making ensures astute choices for sustainable growth.\n\nLet&#39;s connect to delve into entrepreneurship, data analytics, and explore potential synergies in our ever-evolving business sphere. I would love to learn more and continue to satisfy my insatiable a",
-                        "ubba": "https://static.licdn.com/aero-v1/sc/h/ev3rrqp7pxz92prstldrycla5",
-                        "og:url": "https://in.linkedin.com/in/pg100x",
-                        "al:android:app_name": "LinkedIn"
-                    }
-                ],
-                "cse_image": [
-                    {
-                        "src": "https://media.licdn.com/dms/image/v2/D5603AQFM5mOe3JBJ_Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1719430541584?e=2147483647&v=beta&t=vSBVhPWc40_Zo9tqMxcG2dLvtCnvB5o0wHoBfNawA34"
-                    }
-                ]
-            }
-        },
-        {
-            "kind": "customsearch#result",
-            "title": "Arnab Chakraborty - Lead Vice President - HSBC | LinkedIn",
-            "htmlTitle": "Arnab Chakraborty - Lead Vice President - HSBC | LinkedIn",
-            "link": "https://in.linkedin.com/in/arnab-chakraborty-ds",
-            "displayLink": "in.linkedin.com",
-            "snippet": "As the Head of Data Analyst Chapter at India Wholesale Banking Data & Analytics, I specialize in driving business intelligence and data analytics excellence.",
-            "htmlSnippet": "As the Head of <b>Data Analyst</b> Chapter at <b>India</b> Wholesale Banking Data &amp; Analytics, I specialize in driving business intelligence and <b>data analytics</b> excellence.",
-            "formattedUrl": "https://in.linkedin.com/in/arnab-chakraborty-ds",
-            "htmlFormattedUrl": "https://in.linkedin.com/in/arnab-chakraborty-ds",
-            "pagemap": {
-                "cse_thumbnail": [
-                    {
-                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIS4quy6VIrKshKq3pDld0k4MrjNhkTOg-a12VjW17WDZ-FkM0fiyQeK-8&s",
-                        "width": "200",
-                        "height": "200"
-                    }
-                ],
-                "metatags": [
-                    {
-                        "og:image": "https://media.licdn.com/dms/image/v2/C5603AQF4FpO0UxlIcw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1650732186224?e=2147483647&v=beta&t=gKIeUleta6GnMRtbqAKFmXqQW-TNZzxo_8qqmbBTpb0",
-                        "twitter:card": "summary",
-                        "linkedin:pagetag": "openToProvider",
-                        "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
-                        "al:android:package": "com.linkedin.android",
-                        "bingbot": "nocache",
-                        "locale": "en_US",
-                        "al:ios:url": "https://in.linkedin.com/in/arnab-chakraborty-ds",
-                        "og:description": "Global Data Delivery Lead | Lead Vice President - Data Analytics  \u00b7 Data &amp; Analytics professional with decade of experience leading large-scale data projects. Proven expertise in Data Science, Data Engineering, and Data Architecture, with a track record of successfully executing cloud data migration strategies. A versatile Data Generalist with a commitment to delivering innovative solutions and driving business growth through data-driven insights.\n\nExperience Highlights:\nOver 13 years managing data products, providing bespoke solutions.\nExpertise in implementing large-scale data and analytics projects.\n\nRoles &amp; Responsibilities:\nLead, coordinate, and prioritize a diverse portfolio of data projects with complex demands and stakeholder engagement.\nDrive product development and execution with a world-class team of engineers and analysts.\nCollaborate closely with developers and stakeholders to identify data and functional requirements.\n\nAreas of Expertise:\nData Product Management\nProject Management\nMachi",
-                        "al:ios:app_store_id": "288429040",
-                        "platform": "https://static.licdn.com/aero-v1/sc/h/cx1lliooyx2mt58pbjo4d4t6e",
-                        "twitter:image": "https://media.licdn.com/dms/image/v2/C5603AQF4FpO0UxlIcw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1650732186224?e=2147483647&v=beta&t=gKIeUleta6GnMRtbqAKFmXqQW-TNZzxo_8qqmbBTpb0",
-                        "profile:last_name": "Chakraborty",
-                        "twitter:site": "@Linkedin",
-                        "litmsprofilename": "public-profile-frontend",
-                        "profile:first_name": "Arnab",
-                        "og:type": "profile",
-                        "twitter:title": "Arnab Chakraborty - Lead Vice President - HSBC | LinkedIn",
-                        "al:ios:app_name": "LinkedIn",
-                        "og:title": "Arnab Chakraborty - Lead Vice President - HSBC | LinkedIn",
-                        "pagekey": "public_profile_v3_mobile",
-                        "al:android:url": "https://in.linkedin.com/in/arnab-chakraborty-ds",
-                        "viewport": "width=device-width, initial-scale=1.0",
-                        "twitter:description": "Global Data Delivery Lead | Lead Vice President - Data Analytics  \u00b7 Data &amp; Analytics professional with decade of experience leading large-scale data projects. Proven expertise in Data Science, Data Engineering, and Data Architecture, with a track record of successfully executing cloud data migration strategies. A versatile Data Generalist with a commitment to delivering innovative solutions and driving business growth through data-driven insights.\n\nExperience Highlights:\nOver 13 years managing data products, providing bespoke solutions.\nExpertise in implementing large-scale data and analytics projects.\n\nRoles &amp; Responsibilities:\nLead, coordinate, and prioritize a diverse portfolio of data projects with complex demands and stakeholder engagement.\nDrive product development and execution with a world-class team of engineers and analysts.\nCollaborate closely with developers and stakeholders to identify data and functional requirements.\n\nAreas of Expertise:\nData Product Management\nProject Management\nMachi",
-                        "ubba": "https://static.licdn.com/aero-v1/sc/h/4z28ov3akhnpdu4wp0jesv54h",
-                        "og:url": "https://in.linkedin.com/in/arnab-chakraborty-ds",
-                        "al:android:app_name": "LinkedIn"
-                    }
-                ],
-                "cse_image": [
-                    {
-                        "src": "https://media.licdn.com/dms/image/v2/C5603AQF4FpO0UxlIcw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1650732186224?e=2147483647&v=beta&t=gKIeUleta6GnMRtbqAKFmXqQW-TNZzxo_8qqmbBTpb0"
-                    }
-                ],
-                "Person": [
-                    {}
-                ]
-            }
-        },
-        {
-            "kind": "customsearch#result",
-            "title": "Jahanvee Narang - Senior Data Analyst - Walmart | LinkedIn",
-            "htmlTitle": "Jahanvee Narang - Senior <b>Data Analyst</b> - Walmart | LinkedIn",
-            "link": "https://www.linkedin.com/in/jahanveenarang",
-            "displayLink": "www.linkedin.com",
-            "snippet": "A data analytics professional with over 4 years of experience transforming data into strategic business insights for Fortune 50 retailers.",
-            "htmlSnippet": "A <b>data analytics</b> professional with over 4 years of experience transforming data into strategic business insights for Fortune 50 retailers.",
-            "formattedUrl": "https://www.linkedin.com/in/jahanveenarang",
-            "htmlFormattedUrl": "https://www.linkedin.com/in/jahanveenarang",
-            "pagemap": {
-                "cse_thumbnail": [
-                    {
-                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxhjKjdV26OKw_QEXDgynavXbQ_dyK1w8ca_3rapxWhJaDAtuHh4YekWM&s",
-                        "width": "200",
-                        "height": "200"
-                    }
-                ],
-                "metatags": [
-                    {
-                        "og:image": "https://media.licdn.com/dms/image/v2/D5603AQFSgbVFLfgRzg/profile-displayphoto-shrink_200_200/B56ZZEYkOwGsAY-/0/1744904013604?e=2147483647&v=beta&t=yywbQqmXspiVjsW3orlnAL5Y9aWq7RFxvmzwF9yPxbE",
-                        "twitter:card": "summary",
-                        "linkedin:pagetag": "openToProvider",
-                        "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
-                        "al:android:package": "com.linkedin.android",
-                        "bingbot": "nocache",
-                        "locale": "en_US",
-                        "al:ios:url": "https://www.linkedin.com/in/jahanveenarang",
-                        "og:description": "Linkedin Top Voice | Analytics @ Walmart | Podcast Host | Featured at NYC billboard \u00b7 Hi, I am currently working for Walmart - Sam\u2019s club retail media platform-MAP. \nA data analytics professional with over 4 years of experience transforming data into strategic business insights for Fortune 50 retailers.\n\nHolds diverse experience across retail analytics, marketing optimization, and product experimentation at Walmart, Lowe&#39;s, and The Home Depot with technical expertise in SQL, Python, advanced visualization tools, and A/B testing experimentation .\n\nI am podcast host of the &quot;Decoding Data Analytics&quot; , digging into all things data, and recognised twice as a LinkedIn Top Voice.  \n\nGraduated with Masters from The State University of New York in business analytics. I also interned for an year alongside my masters as a data analyst intern for Jacobs School of Medicine and Biomedical Sciences.\n\nI was also featured at Times Square Billboard in 2023 by Topmate as one of the top 1% creators in the analyt",
-                        "al:ios:app_store_id": "288429040",
-                        "platform": "https://static.licdn.com/aero-v1/sc/h/cx1lliooyx2mt58pbjo4d4t6e",
-                        "twitter:image": "https://media.licdn.com/dms/image/v2/D5603AQFSgbVFLfgRzg/profile-displayphoto-shrink_200_200/B56ZZEYkOwGsAY-/0/1744904013604?e=2147483647&v=beta&t=yywbQqmXspiVjsW3orlnAL5Y9aWq7RFxvmzwF9yPxbE",
-                        "profile:last_name": "Narang",
-                        "twitter:site": "@Linkedin",
-                        "litmsprofilename": "public-profile-frontend",
-                        "profile:first_name": "Jahanvee",
-                        "og:type": "profile",
-                        "twitter:title": "Jahanvee Narang - Senior Data Analyst - Walmart | LinkedIn",
-                        "al:ios:app_name": "LinkedIn",
-                        "og:title": "Jahanvee Narang - Senior Data Analyst - Walmart | LinkedIn",
-                        "pagekey": "public_profile_v3_mobile",
-                        "al:android:url": "https://www.linkedin.com/in/jahanveenarang",
-                        "viewport": "width=device-width, initial-scale=1.0",
-                        "twitter:description": "Linkedin Top Voice | Analytics @ Walmart | Podcast Host | Featured at NYC billboard \u00b7 Hi, I am currently working for Walmart - Sam\u2019s club retail media platform-MAP. \nA data analytics professional with over 4 years of experience transforming data into strategic business insights for Fortune 50 retailers.\n\nHolds diverse experience across retail analytics, marketing optimization, and product experimentation at Walmart, Lowe&#39;s, and The Home Depot with technical expertise in SQL, Python, advanced visualization tools, and A/B testing experimentation .\n\nI am podcast host of the &quot;Decoding Data Analytics&quot; , digging into all things data, and recognised twice as a LinkedIn Top Voice.  \n\nGraduated with Masters from The State University of New York in business analytics. I also interned for an year alongside my masters as a data analyst intern for Jacobs School of Medicine and Biomedical Sciences.\n\nI was also featured at Times Square Billboard in 2023 by Topmate as one of the top 1% creators in the analyt",
-                        "ubba": "https://static.licdn.com/aero-v1/sc/h/4z28ov3akhnpdu4wp0jesv54h",
-                        "og:url": "https://www.linkedin.com/in/jahanveenarang",
-                        "al:android:app_name": "LinkedIn"
-                    }
-                ],
-                "cse_image": [
-                    {
-                        "src": "https://media.licdn.com/dms/image/v2/D5603AQFSgbVFLfgRzg/profile-displayphoto-shrink_200_200/B56ZZEYkOwGsAY-/0/1744904013604?e=2147483647&v=beta&t=yywbQqmXspiVjsW3orlnAL5Y9aWq7RFxvmzwF9yPxbE"
-                    }
-                ],
-                "Person": [
-                    {}
-                ]
-            }
-        },
-        {
-            "kind": "customsearch#result",
-            "title": "Waquar Ahmed - Senior Data Analyst - Sony India Software Centre ...",
-            "htmlTitle": "Waquar Ahmed - Senior <b>Data Analyst</b> - Sony <b>India</b> Software Centre ...",
-            "link": "https://in.linkedin.com/in/waquar-ahmed-dataanalyst",
-            "displayLink": "in.linkedin.com",
-            "snippet": "I'm a certified expert in Advance MYSQL, Python Programming Language, Data Analytics, Power BI, Machine Learning, ETL Tools & Cisco Splunk.",
-            "htmlSnippet": "I&#39;m a certified expert in Advance MYSQL, Python Programming Language, <b>Data Analytics</b>, Power BI, Machine Learning, ETL Tools &amp; Cisco Splunk.",
-            "formattedUrl": "https://in.linkedin.com/in/waquar-ahmed-dataanalyst",
-            "htmlFormattedUrl": "https://in.linkedin.com/in/waquar-ahmed-<b>dataanalyst</b>",
-            "pagemap": {
-                "cse_thumbnail": [
-                    {
-                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ88leTZpCHU66YFo6UjdIWbTJuBC_ChUJSSP-qTZgqnFCJTFg5dnaCoIl&s",
-                        "width": "200",
-                        "height": "200"
-                    }
-                ],
-                "metatags": [
-                    {
-                        "og:image": "https://media.licdn.com/dms/image/v2/D5603AQHiZcAPGml6iQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1723223317611?e=2147483647&v=beta&t=Su3t23xVYEyhHgZrNlqphOUNcE3Gu8pbW29t30IGClA",
-                        "twitter:card": "summary",
-                        "linkedin:pagetag": "openToProvider",
-                        "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
-                        "al:android:package": "com.linkedin.android",
-                        "bingbot": "nocache",
-                        "locale": "en_US",
-                        "al:ios:url": "https://in.linkedin.com/in/waquar-ahmed-dataanalyst",
-                        "og:description": "|\u2b50\u2b50\u2b50\u2b50\u2b50BCG Gamma Certified Strategist | Data Science Community Builder | Senior Data Analyst At SONY | SQL 5 Star Hacker Rank | Expert In Python, SQL, Power BI, Machine Learning and Generative AI| \u00b7 Hey there! I&#39;m Waquar, and I&#39;m a certified expert in Advance MYSQL, Python Programming Language, Data Analytics, Power BI, Machine Learning, ETL Tools &amp; Cisco Splunk. I&#39;ve got all the tools to transform your data into powerful insights.\n\nI&#39;m an analytical thinker and problem solver with strong communication skills. I love working &amp; collaborating with teams to help unlock the full potential of their data .Aiming to leverage my data-driven mindset to enhance business insights.\n\nWith 7 years of experience in industries ranging from Product Analytics &amp; IT to EdTech, I bring a wealth of knowledge and expertise to the table. I&#39;m well-versed in tech stacks like MS SQL Server, PostgreSQL, MySQL, Advance Excel, MS Power Bi, Data Analysis, Python libraries, &amp; Azure Cloud, so I c",
-                        "al:ios:app_store_id": "288429040",
-                        "platform": "https://static.licdn.com/aero-v1/sc/h/d024ltvhynt7j1oct8ctk47np",
-                        "twitter:image": "https://media.licdn.com/dms/image/v2/D5603AQHiZcAPGml6iQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1723223317611?e=2147483647&v=beta&t=Su3t23xVYEyhHgZrNlqphOUNcE3Gu8pbW29t30IGClA",
-                        "profile:last_name": "Ahmed",
-                        "twitter:site": "@Linkedin",
-                        "litmsprofilename": "public-profile-frontend",
-                        "profile:first_name": "Waquar",
-                        "og:type": "profile",
-                        "twitter:title": "Waquar Ahmed - Senior Data Analyst - Sony India Software Centre | LinkedIn",
-                        "al:ios:app_name": "LinkedIn",
-                        "og:title": "Waquar Ahmed - Senior Data Analyst - Sony India Software Centre | LinkedIn",
-                        "pagekey": "public_profile_v3_mobile",
-                        "al:android:url": "https://in.linkedin.com/in/waquar-ahmed-dataanalyst",
-                        "viewport": "width=device-width, initial-scale=1.0",
-                        "twitter:description": "|\u2b50\u2b50\u2b50\u2b50\u2b50BCG Gamma Certified Strategist | Data Science Community Builder | Senior Data Analyst At SONY | SQL 5 Star Hacker Rank | Expert In Python, SQL, Power BI, Machine Learning and Generative AI| \u00b7 Hey there! I&#39;m Waquar, and I&#39;m a certified expert in Advance MYSQL, Python Programming Language, Data Analytics, Power BI, Machine Learning, ETL Tools &amp; Cisco Splunk. I&#39;ve got all the tools to transform your data into powerful insights.\n\nI&#39;m an analytical thinker and problem solver with strong communication skills. I love working &amp; collaborating with teams to help unlock the full potential of their data .Aiming to leverage my data-driven mindset to enhance business insights.\n\nWith 7 years of experience in industries ranging from Product Analytics &amp; IT to EdTech, I bring a wealth of knowledge and expertise to the table. I&#39;m well-versed in tech stacks like MS SQL Server, PostgreSQL, MySQL, Advance Excel, MS Power Bi, Data Analysis, Python libraries, &amp; Azure Cloud, so I c",
-                        "ubba": "https://static.licdn.com/aero-v1/sc/h/ev3rrqp7pxz92prstldrycla5",
-                        "og:url": "https://in.linkedin.com/in/waquar-ahmed-dataanalyst",
-                        "al:android:app_name": "LinkedIn"
-                    }
-                ],
-                "cse_image": [
-                    {
-                        "src": "https://media.licdn.com/dms/image/v2/D5603AQHiZcAPGml6iQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1723223317611?e=2147483647&v=beta&t=Su3t23xVYEyhHgZrNlqphOUNcE3Gu8pbW29t30IGClA"
-                    }
-                ],
-                "Person": [
-                    {}
-                ]
-            }
-        },
-        {
-            "kind": "customsearch#result",
-            "title": "Ponnivalavan K - Data Analyst - Caterpillar Inc. | LinkedIn",
-            "htmlTitle": "Ponnivalavan K - <b>Data Analyst</b> - Caterpillar Inc. | LinkedIn",
-            "link": "https://in.linkedin.com/in/ponnivalavan-k-60892a18",
-            "displayLink": "in.linkedin.com",
-            "snippet": "Data Analyst at Caterpillar focused on Drive train Controls Validation. Caterpillar Inc. PSG College of Technology. Erode, Tamil Nadu, India. 428 followers 415\u00a0...",
-            "htmlSnippet": "<b>Data Analyst</b> at Caterpillar focused on Drive train Controls Validation. Caterpillar Inc. PSG College of Technology. Erode, Tamil Nadu, <b>India</b>. 428 followers 415&nbsp;...",
-            "formattedUrl": "https://in.linkedin.com/in/ponnivalavan-k-60892a18",
-            "htmlFormattedUrl": "https://in.linkedin.com/in/ponnivalavan-k-60892a18",
-            "pagemap": {
-                "cse_thumbnail": [
-                    {
-                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpEnMCOR-ytx0ZXHO2rgJlezc4CfXm5iHZMEjL8fSfOciDiTG4CU0Uc8QO&s",
-                        "width": "225",
-                        "height": "225"
-                    }
-                ],
-                "metatags": [
-                    {
-                        "og:image": "https://static.licdn.com/aero-v1/sc/h/1c5u578iilxfi4m4dvc4q810q",
-                        "twitter:card": "summary",
-                        "linkedin:pagetag": "openToProvider",
-                        "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
-                        "al:android:package": "com.linkedin.android",
-                        "bingbot": "nocache",
-                        "locale": "en_US",
-                        "al:ios:url": "https://in.linkedin.com/in/ponnivalavan-k-60892a18",
-                        "og:description": "Data Analyst at Caterpillar focused on Drive train Controls Validation  \u00b7 I\u2019m a Senior Associate Engineer at Caterpillar on a data analytics team focused on Drive train controls validation and machinery health. As an analyst, my primary role is to provide actionable insights for the data (typically high frequency time series data) provided and also technically lead the team. Recently, I&#39;ve started developing scripts in python for analytics purpose. I also do quite a bit of work in PV-Wave. \n\nI graduated with a BE in Instrumentation &amp; Control Systems Engineering. \n\nFavorite Quote: &quot;I want to be remembered as the guy who gave his all whenever he was on the field&quot;  - Walter Payton. \u00b7 Experience: Caterpillar Inc. \u00b7 Education: PSG College of Technology \u00b7 Location: Erode \u00b7 415 connections on LinkedIn. View Ponnivalavan K\u2019s profile on LinkedIn, a professional community of 1 billion members.",
-                        "al:ios:app_store_id": "288429040",
-                        "platform": "https://static.licdn.com/aero-v1/sc/h/coquaw2cudxs4ux1s51aesui5",
-                        "twitter:image": "https://static.licdn.com/aero-v1/sc/h/1c5u578iilxfi4m4dvc4q810q",
-                        "profile:last_name": "K",
-                        "twitter:site": "@Linkedin",
-                        "litmsprofilename": "public-profile-frontend",
-                        "profile:first_name": "Ponnivalavan",
-                        "og:type": "profile",
-                        "twitter:title": "Ponnivalavan K - Data Analyst - Caterpillar Inc. | LinkedIn",
-                        "al:ios:app_name": "LinkedIn",
-                        "og:title": "Ponnivalavan K - Data Analyst - Caterpillar Inc. | LinkedIn",
-                        "pagekey": "public_profile_v3_mobile",
-                        "al:android:url": "https://in.linkedin.com/in/ponnivalavan-k-60892a18",
-                        "viewport": "width=device-width, initial-scale=1.0",
-                        "twitter:description": "Data Analyst at Caterpillar focused on Drive train Controls Validation  \u00b7 I\u2019m a Senior Associate Engineer at Caterpillar on a data analytics team focused on Drive train controls validation and machinery health. As an analyst, my primary role is to provide actionable insights for the data (typically high frequency time series data) provided and also technically lead the team. Recently, I&#39;ve started developing scripts in python for analytics purpose. I also do quite a bit of work in PV-Wave. \n\nI graduated with a BE in Instrumentation &amp; Control Systems Engineering. \n\nFavorite Quote: &quot;I want to be remembered as the guy who gave his all whenever he was on the field&quot;  - Walter Payton. \u00b7 Experience: Caterpillar Inc. \u00b7 Education: PSG College of Technology \u00b7 Location: Erode \u00b7 415 connections on LinkedIn. View Ponnivalavan K\u2019s profile on LinkedIn, a professional community of 1 billion members.",
-                        "ubba": "https://static.licdn.com/aero-v1/sc/h/3kbmdc33ogmpo0bs8dolr9yre",
-                        "og:url": "https://in.linkedin.com/in/ponnivalavan-k-60892a18",
-                        "al:android:app_name": "LinkedIn"
-                    }
-                ],
-                "cse_image": [
-                    {
-                        "src": "https://static.licdn.com/aero-v1/sc/h/1c5u578iilxfi4m4dvc4q810q"
-                    }
-                ],
-                "Person": [
-                    {}
                 ]
             }
         }

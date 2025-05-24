@@ -56,11 +56,12 @@
     </div>
     <!-- Submit Button -->
     <div class="submit-box">
-      <button @click="submitSelection" class="submit-button" title="Submit">Submit</button>
+      <button @click="submitSelection" class="submit-button" :disabled="isLoading" title="Submit">Submit</button>
     </div>
     <!-- Display result -->
     <div class="result-box">
-      <p v-if="resultText" class="result-text">{{ resultText }}</p>
+      <span v-if="isLoading" class="loader"></span>
+      <p v-else-if="resultText" class="result-text">{{ resultText }}</p>
     </div>
   </div>
 </template>
@@ -73,25 +74,19 @@ const emit = defineEmits(['dataReady'])
 
 const data = ref({})
 const flatData = ref([])
-
 const domainInput = ref('')
 const subdomainInput = ref('')
 const selectedDomain = ref('')
-
 const filteredDomains = ref([])
 const filteredSubdomains = ref([])
-
 const selectedDomainIndex = ref(0)
 const selectedSubdomainIndex = ref(0)
-
 const resultText = ref('')
-
-// Add visibility control for dropdowns
 const showDomainDropdown = ref(false)
 const showSubdomainDropdown = ref(false)
-
 let fuseDomains = null
 let fuseSubdomains = null
+const isLoading = ref(false)
 
 onMounted(async () => {
   try {
@@ -219,6 +214,7 @@ async function submitSelection() {
     resultText.value = 'Please select domain and/or subdomain.'
     return
   }
+  isLoading.value = true
 
   try {
     const res = await fetch('http://127.0.0.1:5000/search', {
@@ -230,6 +226,9 @@ async function submitSelection() {
     emit('dataReady', data)
   } catch (err) {
     emit('dataReady', { error: err.message })
+  }
+  finally {
+    isLoading.value = false
   }
 }
 </script>
@@ -329,7 +328,7 @@ li.selected {
 
 .submit-button {
   cursor: pointer;
-  font-size: large;
+  font-size: clamp(0.75rem, 0.6439rem + 0.4587vw, 0.9375rem);
   font-family: inherit;
   font-weight: bold;
   color: #0011ff;
@@ -361,5 +360,71 @@ li.selected {
   margin-top: 5vw;
   font-size: clamp(0.75rem, 0.6439rem + 0.4587vw, 0.9375rem);
   width: 100%;
+}
+/* From Uiverse.io by alexruix */ 
+.loader {
+  width: 48px;
+  height: 48px;
+  margin: auto;
+  position: relative;
+}
+
+.loader:before {
+  content: '';
+  width: 48px;
+  height: 5px;
+  background: #f0808050;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  border-radius: 50%;
+  animation: shadow324 0.5s linear infinite;
+}
+
+.loader:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: #f08080;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 4px;
+  animation: jump7456 0.5s linear infinite;
+}
+
+@keyframes jump7456 {
+  15% {
+    border-bottom-right-radius: 3px;
+  }
+
+  25% {
+    transform: translateY(9px) rotate(22.5deg);
+  }
+
+  50% {
+    transform: translateY(18px) scale(1, .9) rotate(45deg);
+    border-bottom-right-radius: 40px;
+  }
+
+  75% {
+    transform: translateY(9px) rotate(67.5deg);
+  }
+
+  100% {
+    transform: translateY(0) rotate(90deg);
+  }
+}
+
+@keyframes shadow324 {
+
+  0%,
+    100% {
+    transform: scale(1, 1);
+  }
+
+  50% {
+    transform: scale(1.2, 1);
+  }
 }
 </style>

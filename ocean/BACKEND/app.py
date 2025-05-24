@@ -26,14 +26,10 @@ def main():
     query = f"site:linkedin.com/in {domain} {subdomain} AND INDIA"
 
     google_response = google_search(query, SEARCH_API, SEARCH_ID)
-    if google_response:
-        print('Google response successfully received.')
     with open('gpse_response.json', 'w') as f:
         f.write(json.dumps(google_response, indent=4))
 
     extracted_json = extract(google_response, domain, subdomain, client)
-    if extracted_json:
-        print('Extraction successfully completed.')
     with open('extracted.json', 'w') as f:
         f.write(extracted_json)  
 
@@ -75,7 +71,7 @@ def extract(json_data, domain, subdomain, client):
             "confidence_score": response.text
         }
         result.append(entry)
-        time.sleep(1)
+        time.sleep(0.1)
 
     json_result = json.dumps(result, indent=4)
     return json_result
