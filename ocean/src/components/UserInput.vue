@@ -1,7 +1,6 @@
 <template>
   <div class="MAIN_DIV">
     <div class="typeaface-container">
-      <!-- Domain Typeahead -->
       <div class="domain-box">
         <input 
           v-model="domainInput" 
@@ -27,7 +26,6 @@
           </ul>
         </div>
       </div>
-      <!-- Subdomain Typeahead -->
       <div class="subdomain-box">
         <input 
           v-model="subdomainInput" 
@@ -54,11 +52,9 @@
         </div>
       </div>
     </div>
-    <!-- Submit Button -->
     <div class="submit-box">
       <button @click="submitSelection" class="submit-button" :disabled="isLoading" title="Submit">Submit</button>
     </div>
-    <!-- Display result -->
     <div class="result-box">
       <span v-if="isLoading" class="loader"></span>
       <p v-else-if="resultText" class="result-text">{{ resultText }}</p>
@@ -100,15 +96,14 @@ onMounted(async () => {
 
     fuseDomains = new Fuse(flatData.value, {
       keys: ['domain'],
-      threshold: 0.4, // Slightly more lenient threshold
+      threshold: 0.4, 
     })
 
     fuseSubdomains = new Fuse(flatData.value, {
       keys: ['subdomain'],
-      threshold: 0.4, // Slightly more lenient threshold
+      threshold: 0.4, 
     })
 
-    // Initial filtering
     if (domainInput.value) filterDomains()
     if (subdomainInput.value) filterSubdomains()
   } catch (error) {
@@ -123,13 +118,12 @@ function filterDomains() {
     return
   }
 
-  if (!fuseDomains) return // Safety check
+  if (!fuseDomains) return 
 
   const results = fuseDomains.search(domainInput.value).map(r => r.item.domain)
   filteredDomains.value = [...new Set(results)].slice(0, 5)
   selectedDomainIndex.value = 0
   
-  // Show dropdown if there are results
   if (filteredDomains.value.length > 0) {
     showDomainDropdown.value = true
   }
@@ -141,11 +135,10 @@ function filterSubdomains() {
     return
   }
 
-  if (!fuseSubdomains) return // Safety check
+  if (!fuseSubdomains) return 
 
   const results = fuseSubdomains.search(subdomainInput.value)
   
-  // If domain is selected, filter by that domain, otherwise show all
   const matches = selectedDomain.value 
     ? results.filter(r => r.item.domain === selectedDomain.value)
     : results
@@ -153,7 +146,6 @@ function filterSubdomains() {
   filteredSubdomains.value = matches.map(r => r.item.subdomain).slice(0, 5)
   selectedSubdomainIndex.value = 0
   
-  // Show dropdown if there are results
   if (filteredSubdomains.value.length > 0) {
     showSubdomainDropdown.value = true
   }
@@ -166,7 +158,6 @@ function selectDomain(index = selectedDomainIndex.value) {
   domainInput.value = selectedDomain.value
   showDomainDropdown.value = false
   
-  // Clear subdomain when domain changes
   subdomainInput.value = ''
   filteredSubdomains.value = []
 }
@@ -192,20 +183,17 @@ function moveUp(type) {
 }
 
 function handleDomainBlur() {
-  // Small delay to allow click events on dropdown items
   setTimeout(() => {
     showDomainDropdown.value = false
   }, 200)
 }
 
 function handleSubdomainBlur() {
-  // Small delay to allow click events on dropdown items
   setTimeout(() => {
     showSubdomainDropdown.value = false
   }, 200)
 }
 
-// untouched by request
 async function submitSelection() {
   const domain = domainInput.value.trim()
   const subdomain = subdomainInput.value.trim()
@@ -361,7 +349,6 @@ li.selected {
   font-size: clamp(0.75rem, 0.6439rem + 0.4587vw, 0.9375rem);
   width: 100%;
 }
-/* From Uiverse.io by alexruix */ 
 .loader {
   width: 48px;
   height: 48px;
